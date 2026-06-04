@@ -55,7 +55,7 @@
                 hls = new Hls({ maxBufferLength: 15, enableWorker: true });
                 hls.loadSource(url);
                 hls.attachMedia(player);
-                hls.on(Hls.Events.MANIFEST_PARSED, () => player.play().catch(e => console.log("Autoplay")));
+                hls.on(Hls.Events.MANIFEST_PARSED, () => player.play().catch(e => console.log("Autoplay Context")));
             } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
                 player.src = url;
                 player.addEventListener('loadedmetadata', () => player.play());
