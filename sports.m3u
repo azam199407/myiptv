@@ -1,23 +1,25 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.ibb.co/6w4n0mG/tsports.png",T Sports Live
-https://live-par02.thesports.club/tsports/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.co/yxB70z8g/Sony-Sports-1.png",Sony Sports Ten 1
-https://pubads.g.doubleclick.net/ssai/event/X7b8S3S_R_m8YVp3_Wv27g/master.m3u8
+http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv-org.github.io/images/languages/ben/GTV.png",GTV (Gazi TV)
+https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv-org.github.io/images/languages/ben/SomoyTV.png",Somoy TV
-https://youtube.com/playlist?list=PL_Xv4N7V3XGvGZ8Fh9GvPz5N8XF1X3X7b/live.m3u8
+https://bozztv.com/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptv-org.github.io/images/languages/ben/JamunaTV.png",Jamuna TV
-https://tv.jamuna.tv/live/master.m3u8
-#EXTINF:-1 tvg-logo="https://iptv-org.github.io/images/languages/ben/IndependentTV.png",Independent TV
-https://independent-live.cdn.bongo.solutions/hls/independent.m3u8
+https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptv-org.github.io/images/languages/ben/Channel24.png",Channel 24
-https://c24-live.cdn.bongo.solutions/hls/channel24.m3u8
+https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8
+#EXTINF:-1 tvg-logo="https://iptv-org.github.io/images/languages/ben/IndependentTV.png",Independent TV
+https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.co/g2T4NbfV/Star-Sports-1.png",Star Sports 1
+http://103.253.18.58:8000/play/a00m
+#EXTINF:-1 tvg-logo="https://i.postimg.co/yxB70z8g/Sony-Sports-1.png",Sony Sports Ten 1
+https://linear-hls-prod.snplay.in/hls/sonysports1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.co/V6tB9B7g/Sports-18.png",Sports 18
+https://linear-hls-prod.snplay.in/hls/sports18/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.co/N0fL4g7X/Star-Jalsha.png",Star Jalsha
 https://linear-hls-prod.snplay.in/hls/starjalsha/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.co/8chbyVq9/Zee-Bangla.png",Zee Bangla
 https://linear-hls-prod.snplay.in/hls/zeebangla/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.co/fW0N6M0w/Sony-Aath.png",Sony Aath
 https://linear-hls-prod.snplay.in/hls/sonyaath/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.co/0yXvYVzG/Star-Plus.png",Star Plus
-https://linear-hls-prod.snplay.in/hls/starplus/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.co/bYgqf8zN/Sony-Max.png",Sony MAX
-https://linear-hls-prod.snplay.in/hls/sonymax/index.m3u8
