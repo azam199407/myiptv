@@ -72,7 +72,7 @@
                 hls = new Hls({ maxBufferLength: 15, enableWorker: true });
                 hls.loadSource(url);
                 hls.attachMedia(player);
-                hls.on(Hls.Events.MANIFEST_PARSED, () => player.play().catch(e => console.log("Autoplay context initialization")));
+                hls.on(Hls.Events.MANIFEST_PARSED, () => player.play().catch(e => console.log("Autoplay handle")));
             } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
                 player.src = url;
                 player.addEventListener('loadedmetadata', () => player.play());
@@ -89,7 +89,6 @@
                 
                 const img = document.createElement('img');
                 img.src = ch.logo;
-                // যদি কোনো লোগো লোড হতে ব্যর্থ হয়, তবে রিয়েল-টাইম টেক্সট লোগো রি-প্লেস হবে (কখনো ভাঙা ছবি আসবে না)
                 img.onerror = function() { 
                     this.src = "https://ui-avatars.com/api/?name=" + encodeURIComponent(ch.name) + "&background=232c3f&color=00ff55&size=150&bold=true"; 
                 };
@@ -102,7 +101,7 @@
                 btn.onclick = function() { playStream(ch.url, btn); };
                 grid.appendChild(btn);
                 
-                if(index === 0) { playStream(ch.url, btn); }
+                if(index === 0 && data.length === channels.length) { playStream(ch.url, btn); }
             });
         }
 
@@ -126,7 +125,6 @@
             initGrid(filtered);
         }
 
-        // ইনিশিয়াল রান
         initGrid(channels);
     </script>
 </body>
