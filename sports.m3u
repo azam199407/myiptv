@@ -25,7 +25,7 @@ https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
 https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
 #EXTINF:-1,ANTV (1080p)
 https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/65.0.3325.181 Safari/537.36" group-title="General",ANTV (720p)
+#EXTINF:-1,,ANTV (720p)
 http://103.58.160.157:8278/720-ANTV/playlist.m3u8
 #EXTINF:-1,ARTV Canal Parlamento (720p) [Not 24/7]
 https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8
@@ -73,7 +73,7 @@ https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/d96eb
 https://protvradiostream.com:1936/rtvd17/ngrp:rtvd17_all/playlist.m3u8
 #EXTINF:-1,Canal Málaga RTV (720p) [Not 24/7]
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
-#EXTINF:-1,like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",CarbonTV (1080p)
+#EXTINF:-1,,CarbonTV (1080p)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/0QU2LXMHQHCESK6R27B8/hls3/now,-1m/m.m3u8?ads.vf=AZYcqVziuxu
 #EXTINF:-1,CBS News 24/7 (720p)
 https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8
@@ -199,7 +199,7 @@ https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
 http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8
 #EXTINF:-1,News 24 MP & Chhattisgarh (576p)
 https://mumt04.tangotv.in/NEWS24MPCG/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",NHK World Premium (720p)
+#EXTINF:-1,,NHK World Premium (720p)
 https://cdn4.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
 #EXTINF:-1,NHK World-Japan (1080p)
 https://livehub-voidnet.onrender.com/cluster/streamcore/jp/NHK_StreamOrchestrator.m3u8
@@ -213,7 +213,7 @@ https://server.asilivehd.com:3242/live/nortvisionlive.m3u8
 https://viamotionhsi.netplus.ch/live/eds/nrtv/browser-HLS8/nrtv.m3u8
 #EXTINF:-1,NTV
 http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
-#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",NTV (1080p)
+#EXTINF:-1,,NTV (1080p)
 https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
 #EXTINF:-1,NTV (720p)
 https://s-pl-01.mediatool.tv/playout/ntv-abr/index.m3u8
@@ -231,7 +231,7 @@ https://lon.rtsp.me/dEqnY-myGj84bKrieCIPfA/1743271667/hls/3dH3YAD6.m3u8
 https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8
 #EXTINF:-1,NTV+
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
-#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",ONTV (1080p)
+#EXTINF:-1,,ONTV (1080p)
 https://cdn4.skygo.mn/live/disk1/ONTV/DASH-FTA/ONTV.mpd
 #EXTINF:-1,ONTV4U (1080p)
 https://cdn13.crtvnoc.com/ONTV4U-on-DistroTV/index.m3u8
@@ -275,7 +275,7 @@ https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8
 https://lstv.duckdns.org:449/hls/rtchirripo.m3u8
 #EXTINF:-1,RTV Drenthe (1080p)
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="Undefined",RTV El Vendrell (1080p)
+#EXTINF:-1,,RTV El Vendrell (1080p)
 https://liveingesta318.cdnmedia.tv/tvvendrelllive/smil:live.smil/playlist.m3u8
 #EXTINF:-1,RTV Glas Drine (404p) [Not 24/7]
 http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
@@ -341,7 +341,7 @@ https://stream.rtvze.ba/live/123/123.m3u8
 http://ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8
 #EXTINF:-1,RTVC (720p)
 https://cdn140m.panaccess.com/HLS/RTVC/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="Undefined",RTVC Cardedeu (1080p)
+#EXTINF:-1,,RTVC Cardedeu (1080p)
 https://liveingesta118.cdnmedia.tv/cardedeutvlive/smil:live.smil/playlist.m3u8
 #EXTINF:-1,RTVi (450p)
 https://s70378.cdn.ngenix.net/rtvi/index.m3u8
