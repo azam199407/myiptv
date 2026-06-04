@@ -3,48 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PREMIUM SPORTS IPTV</title>
+    <title>LIVE TV PORTAL</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
-        body { background-color: #060709; color: #fff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
-        .header { width: 100%; background: #11141a; text-align: center; padding: 15px 0; border-bottom: 2px solid #00ff55; }
-        .header h1 { margin: 0; color: #00ff55; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; }
-        .player-container { width: 95%; max-width: 850px; margin: 15px 0; background: #000; border: 2px solid #1c2331; border-radius: 6px; overflow: hidden; }
+        body { background-color: #08090c; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .header { width: 100%; background: #121620; text-align: center; padding: 15px 0; border-bottom: 2px solid #00ff55; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .header h1 { margin: 0; color: #00ff55; font-size: 22px; text-transform: uppercase; letter-spacing: 1px; }
+        .player-container { width: 95%; max-width: 850px; margin: 15px 0; background: #000; border: 1px solid #1f2637; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.7); }
         video { width: 100%; height: auto; aspect-ratio: 16/9; display: block; background: #000; }
         
-        .search-box { width: 95%; max-width: 850px; margin-bottom: 15px; }
-        .search-box input { width: 100%; padding: 12px 20px; background: #11141a; border: 1px solid #222; border-radius: 6px; color: #fff; font-size: 15px; box-sizing: border-box; outline: none; }
-        .search-box input:focus { border-color: #00ff55; }
+        .controls-area { width: 95%; max-width: 850px; display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+        .search-box input { width: 100%; padding: 14px 20px; background: #121620; border: 1px solid #232c3f; border-radius: 8px; color: #fff; font-size: 15px; box-sizing: border-box; outline: none; transition: 0.3s; }
+        .search-box input:focus { border-color: #00ff55; box-shadow: 0 0 10px rgba(0,255,85,0.2); }
+        
+        .cat-tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 5px; scrollbar-width: none; }
+        .cat-tabs::-webkit-scrollbar { display: none; }
+        .tab-btn { background: #121620; color: #a0a5b5; border: 1px solid #232c3f; padding: 10px 20px; border-radius: 30px; cursor: pointer; font-weight: bold; font-size: 13px; white-space: nowrap; transition: 0.3s; }
+        .tab-btn.active { background: #00ff55; color: #000; border-color: #00ff55; box-shadow: 0 4px 12px rgba(0,255,85,0.3); }
 
-        .grid-container { width: 95%; max-width: 1200px; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; padding-bottom: 30px; }
-        .channel-btn { background: #ffffff; color: #000; border: none; padding: 10px; border-radius: 8px; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; height: 110px; transition: transform 0.2s; }
-        .channel-btn:hover { transform: scale(1.03); }
-        .channel-btn img { height: 45px; max-width: 90%; object-fit: contain; }
-        .channel-btn span { font-size: 12px; font-weight: bold; text-align: center; color: #111; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; }
-        .channel-btn.active { border: 3px solid #00ff55; box-shadow: 0 0 12px #00ff55; background: #fff; }
-        @media(max-width: 600px){ .grid-container { grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); gap: 8px; } .channel-btn { height: 95px; } .channel-btn img { height: 35px; } }
+        .grid-container { width: 95%; max-width: 1200px; display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; padding-bottom: 5px; }
+        .channel-btn { background: #121620; color: #fff; border: 1px solid #232c3f; padding: 12px 8px; border-radius: 10px; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; height: 115px; box-sizing: border-box; transition: all 0.2s ease; }
+        .channel-btn:hover { border-color: #00ff55; transform: translateY(-2px); background: #171d2a; }
+        .channel-btn img { height: 48px; max-width: 85%; object-fit: contain; border-radius: 4px; }
+        .channel-btn span { font-size: 11px; font-weight: 600; text-align: center; color: #e1e4ed; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; width: 100%; text-shadow: 0 1px 2px rgba(0,0,0,0.8); }
+        .channel-btn.active { border: 2px solid #00ff55; background: #171d2a; box-shadow: inset 0 0 10px rgba(0,255,85,0.15); }
+        
+        @media(max-width: 600px){ .grid-container { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 8px; } .channel-btn { height: 95px; padding: 8px 4px; } .channel-btn img { height: 38px; } .channel-btn span { font-size: 10px; } }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>⚽ LIVE SPORTS STREAMING</h1>
+        <h1>📺 PREMIUM MULTI-CHANNEL IPTV PORTAL</h1>
     </div>
 
     <div class="player-container">
         <video id="video-player" controls autoplay playsinline></video>
     </div>
 
-    <div class="search-box">
-        <input type="text" id="search" placeholder="Search Channels..." onkeyup="filterChannels()">
+    <div class="controls-area">
+        <div class="search-box">
+            <input type="text" id="search" placeholder="🔍 Search among 300+ channels..." onkeyup="filterChannels()">
+        </div>
+        <div class="cat-tabs" id="tabs-box">
+            <button class="tab-btn active" onclick="switchCategory('All')">All Channels</button>
+            <button class="tab-btn" onclick="switchCategory('Sports')">⚽ Sports</button>
+            <button class="tab-btn" onclick="switchCategory('Bangladesh')">🇧🇩 Bangladesh</button>
+            <button class="tab-btn" onclick="switchCategory('India')">🇮🇳 India</button>
+            <button class="tab-btn" onclick="switchCategory('News')">📰 News</button>
+            <button class="tab-btn" onclick="switchCategory('Entertainment')">🎬 Entertainment</button>
+        </div>
     </div>
 
     <div class="grid-container" id="buttons-grid"></div>
 
     <script>
-        // ক্যাশে বাইপাস করে রিয়েল-টাইম ডেটা লোড করার মেকানিজম
-        const channels = [{"name":"T Sports Live","logo":"https://i.ibb.co/6w4n0mG/tsports.png","url":"http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8"},{"name":"GTV (Gazi TV)","logo":"https://iptv-org.github.io/images/languages/ben/GTV.png","url":"https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8"},{"name":"Somoy TV","logo":"https://iptv-org.github.io/images/languages/ben/SomoyTV.png","url":"https://bozztv.com/rongo/rongo-somoy/index.m3u8"},{"name":"Jamuna TV","logo":"https://iptv-org.github.io/images/languages/ben/JamunaTV.png","url":"https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8"},{"name":"Channel 24","logo":"https://iptv-org.github.io/images/languages/ben/Channel24.png","url":"https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8"},{"name":"Independent TV","logo":"https://iptv-org.github.io/images/languages/ben/IndependentTV.png","url":"https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8"},{"name":"Star Sports 1","logo":"https://i.postimg.co/g2T4NbfV/Star-Sports-1.png","url":"http://103.253.18.58:8000/play/a00m"},{"name":"Sony Sports Ten 1","logo":"https://i.postimg.co/yxB70z8g/Sony-Sports-1.png","url":"https://linear-hls-prod.snplay.in/hls/sonysports1/index.m3u8"},{"name":"Sports 18","logo":"https://i.postimg.co/V6tB9B7g/Sports-18.png","url":"https://linear-hls-prod.snplay.in/hls/sports18/index.m3u8"},{"name":"Star Jalsha","logo":"https://i.postimg.co/N0fL4g7X/Star-Jalsha.png","url":"https://linear-hls-prod.snplay.in/hls/starjalsha/index.m3u8"},{"name":"Zee Bangla","logo":"https://i.postimg.co/8chbyVq9/Zee-Bangla.png","url":"https://linear-hls-prod.snplay.in/hls/zeebangla/index.m3u8"},{"name":"Sony Aath","logo":"https://i.postimg.co/fW0N6M0w/Sony-Aath.png","url":"https://linear-hls-prod.snplay.in/hls/sonyaath/index.m3u8"}];
+        const channels = [];
         const player = document.getElementById('video-player');
+        let currentCategory = 'All';
         let hls = new Hls();
 
         function playStream(url, btnElement) {
@@ -53,10 +69,10 @@
 
             if (Hls.isSupported()) {
                 hls.destroy();
-                hls = new Hls();
+                hls = new Hls({ maxBufferLength: 15, enableWorker: true });
                 hls.loadSource(url);
                 hls.attachMedia(player);
-                hls.on(Hls.Events.MANIFEST_PARSED, () => player.play().catch(e => console.log("Autoplay waiting for user...")));
+                hls.on(Hls.Events.MANIFEST_PARSED, () => player.play().catch(e => console.log("Autoplay context initialization")));
             } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
                 player.src = url;
                 player.addEventListener('loadedmetadata', () => player.play());
@@ -66,13 +82,17 @@
         function initGrid(data) {
             const grid = document.getElementById('buttons-grid');
             grid.innerHTML = '';
+            
             data.forEach((ch, index) => {
                 const btn = document.createElement('button');
                 btn.className = 'channel-btn';
                 
                 const img = document.createElement('img');
                 img.src = ch.logo;
-                img.onerror = function() { this.src = "https://placehold.co/120x70?text=" + encodeURIComponent(ch.name); };
+                // যদি কোনো লোগো লোড হতে ব্যর্থ হয়, তবে রিয়েল-টাইম টেক্সট লোগো রি-প্লেস হবে (কখনো ভাঙা ছবি আসবে না)
+                img.onerror = function() { 
+                    this.src = "https://ui-avatars.com/api/?name=" + encodeURIComponent(ch.name) + "&background=232c3f&color=00ff55&size=150&bold=true"; 
+                };
                 
                 const span = document.createElement('span');
                 span.innerText = ch.name;
@@ -82,16 +102,31 @@
                 btn.onclick = function() { playStream(ch.url, btn); };
                 grid.appendChild(btn);
                 
-                if(index === 0 && data.length === channels.length) { playStream(ch.url, btn); }
+                if(index === 0) { playStream(ch.url, btn); }
             });
+        }
+
+        function switchCategory(cat) {
+            currentCategory = cat;
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            filterChannels();
         }
 
         function filterChannels() {
             const query = document.getElementById('search').value.toLowerCase();
-            const filtered = channels.filter(ch => ch.name.toLowerCase().includes(query));
+            let filtered = channels;
+            
+            if (currentCategory !== 'All') {
+                filtered = filtered.filter(ch => ch.category === currentCategory);
+            }
+            if (query) {
+                filtered = filtered.filter(ch => ch.name.toLowerCase().includes(query));
+            }
             initGrid(filtered);
         }
 
+        // ইনিশিয়াল রান
         initGrid(channels);
     </script>
 </body>
