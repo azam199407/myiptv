@@ -6,59 +6,51 @@
     <title>IPTV PLAYER</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
-        body { background-color: #0b0c10; color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        body { background-color: #0b0c10; color: #fff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
         .header { width: 100%; background: #1f2833; text-align: center; padding: 15px 0; border-bottom: 2px solid #ff0000; }
-        .header h1 { margin: 0; color: #ff0000; font-size: 26px; text-transform: uppercase; letter-spacing: 2px; }
-        .player-container { width: 95%; max-width: 850px; margin: 20px 0; background: #000; border: 3px solid #1f2833; border-radius: 8px; overflow: hidden; box-shadow: 0 0 15px rgba(255,0,0,0.2); }
+        .header h1 { margin: 0; color: #ff0000; font-size: 24px; text-transform: uppercase; }
+        .player-container { width: 95%; max-width: 800px; margin: 20px 0; background: #000; border: 2px solid #333; border-radius: 8px; overflow: hidden; }
         video { width: 100%; height: auto; aspect-ratio: 16/9; display: block; }
-        
-        .search-box { width: 95%; max-width: 850px; margin-bottom: 20px; }
-        .search-box input { width: 100%; padding: 14px 20px; background: #151b24; border: 1px solid #333; border-radius: 8px; color: #fff; font-size: 16px; box-sizing: border-box; outline: none; }
-        .search-box input:focus { border-color: #ff0000; }
-
-        .grid-container { width: 95%; max-width: 1200px; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; padding-bottom: 40px; }
-        .channel-btn { background: #ffffff; color: #000; border: 2px solid #e1e4e8; padding: 15px 10px; border-radius: 10px; cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; height: 120px; outline: none; }
-        .channel-btn img { height: 50px; max-width: 90%; object-fit: contain; }
-        .channel-btn span { font-size: 13px; font-weight: bold; text-align: center; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: 100%; color: #111; }
-        .channel-btn:hover { transform: translateY(-3px); border-color: #ff0000; box-shadow: 0 0 10px rgba(255,0,0,0.3); }
-        .channel-btn.active { border: 3px solid #00ff00; box-shadow: 0 0 15px #00ff00; background: #fff; }
-        @media(max-width: 600px){ .grid-container { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; } .channel-btn { height: 100px; } .channel-btn img { height: 40px; } }
+        .grid-container { width: 95%; max-width: 1200px; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; padding-bottom: 40px; }
+        .channel-btn { background: #ffffff; color: #000; border: none; padding: 10px; border-radius: 8px; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; height: 110px; }
+        .channel-btn img { height: 45px; max-width: 90%; object-fit: contain; }
+        .channel-btn span { font-size: 12px; font-weight: bold; text-align: center; color: #111; }
+        .channel-btn.active { border: 3px solid #00ff00; background: #fff; box-shadow: 0 0 10px #00ff00; }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>LIVE IPTV PANEL</h1>
+        <h1>MY LIVE IPTV PANEL</h1>
     </div>
 
     <div class="player-container">
-        <video id="video-player" controls autoplay poster="https://placehold.co/800x450/000000/ff0000?text=Select+Channel"></video>
-    </div>
-
-    <div class="search-box">
-        <input type="text" id="search" placeholder="Search Channel..." onkeyup="filterChannels()">
+        <video id="video-player" controls autoplay playsinline muted></video>
     </div>
 
     <div class="grid-container" id="buttons-grid"></div>
 
     <script>
-        const channels = [{"name":"T Sports","logo":"https://i.ibb.co/6w4n0mG/tsports.png","url":"https://t-sports.bdixtv.live/live/tsports/index.m3u8"},{"name":"GTV","logo":"https://iptv-org.github.io/images/languages/ben/GTV.png","url":"https://bdixtv24.com/live/gtv/index.m3u8"},{"name":"Somoy TV","logo":"https://iptv-org.github.io/images/languages/ben/SomoyTV.png","url":"https://bdixtv24.com/live/somoytv/index.m3u8"},{"name":"Jamuna TV","logo":"https://iptv-org.github.io/images/languages/ben/JamunaTV.png","url":"https://bdixtv24.com/live/jamunatv/index.m3u8"},{"name":"Independent TV","logo":"https://iptv-org.github.io/images/languages/ben/IndependentTV.png","url":"https://bdixtv24.com/live/independent/index.m3u8"},{"name":"Channel 24","logo":"https://iptv-org.github.io/images/languages/ben/Channel24.png","url":"https://bdixtv24.com/live/channel24/index.m3u8"},{"name":"News 24","logo":"https://iptv-org.github.io/images/languages/ben/News24.png","url":"https://bdixtv24.com/live/news24/index.m3u8"},{"name":"NTV","logo":"https://iptv-org.github.io/images/languages/ben/NTV.png","url":"https://bdixtv24.com/live/ntv/index.m3u8"},{"name":"RTV","logo":"https://iptv-org.github.io/images/languages/ben/RTV.png","url":"https://bdixtv24.com/live/rtv/index.m3u8"},{"name":"Channel i","logo":"https://iptv-org.github.io/images/languages/ben/Channeli.png","url":"https://bdixtv24.com/live/channeli/index.m3u8"},{"name":"Ekattor TV","logo":"https://iptv-org.github.io/images/languages/ben/EkattorTV.png","url":"https://bdixtv24.com/live/71tv/index.m3u8"},{"name":"Deepto TV","logo":"https://iptv-org.github.io/images/languages/ben/DeeptoTV.png","url":"https://bdixtv24.com/live/deepto/index.m3u8"},{"name":"Maasranga TV","logo":"https://iptv-org.github.io/images/languages/ben/MaasrangaTV.png","url":"https://bdixtv24.com/live/maasranga/index.m3u8"},{"name":"Banglavision","logo":"https://iptv-org.github.io/images/languages/ben/Banglavision.png","url":"https://bdixtv24.com/live/banglavision/index.m3u8"},{"name":"ATN Bangla","logo":"https://iptv-org.github.io/images/languages/ben/ATNBangla.png","url":"https://bdixtv24.com/live/atnbangla/index.m3u8"},{"name":"BTV World","logo":"https://iptv-org.github.io/images/languages/ben/BTVWorld.png","url":"https://bdixtv24.com/live/btvworld/index.m3u8"},{"name":"Star Jalsha","logo":"https://i.postimg.co/N0fL4g7X/Star-Jalsha.png","url":"https://skymedia.bdixtv.live/live/starjalsha/index.m3u8"},{"name":"Zee Bangla","logo":"https://i.postimg.co/8chbyVq9/Zee-Bangla.png","url":"https://skymedia.bdixtv.live/live/zeebangla/index.m3u8"},{"name":"Jalsha Movies","logo":"https://i.postimg.co/YCDmN9f3/Jalsha-Movies.png","url":"https://skymedia.bdixtv.live/live/jalshamovies/index.m3u8"},{"name":"Sony Aath","logo":"https://i.postimg.co/fW0N6M0w/Sony-Aath.png","url":"https://skymedia.bdixtv.live/live/sonyaath/index.m3u8"},{"name":"Colors Bangla","logo":"https://i.postimg.co/tCg3rYkF/Colors-Bangla.png","url":"https://skymedia.bdixtv.live/live/colorsbangla/index.m3u8"},{"name":"Star Plus","logo":"https://i.postimg.co/0yXvYVzG/Star-Plus.png","url":"https://skymedia.bdixtv.live/live/starplus/index.m3u8"},{"name":"Zee TV","logo":"https://i.postimg.co/v8Zp0g0G/Zee-TV.png","url":"https://skymedia.bdixtv.live/live/zeetv/index.m3u8"},{"name":"Sony TV","logo":"https://i.postimg.co/FHT9X0bB/Sony-TV.png","url":"https://skymedia.bdixtv.live/live/sonytv/index.m3u8"},{"name":"SAB TV","logo":"https://i.postimg.co/wT9X4Z0B/Sab-TV.png","url":"https://skymedia.bdixtv.live/live/sabtv/index.m3u8"},{"name":"Colors TV","logo":"https://i.postimg.co/fR34P0XF/Colors-TV.png","url":"https://skymedia.bdixtv.live/live/colors/index.m3u8"},{"name":"Star Gold","logo":"https://i.postimg.co/mZ8vXfSB/Star-Gold.png","url":"https://skymedia.bdixtv.live/live/stargold/index.m3u8"},{"name":"Sony MAX","logo":"https://i.postimg.co/bYgqf8zN/Sony-Max.png","url":"https://skymedia.bdixtv.live/live/sonymax/index.m3u8"},{"name":"Zee Cinema","logo":"https://i.postimg.co/52vN8P7C/Zee-Cinema.png","url":"https://skymedia.bdixtv.live/live/zeecinema/index.m3u8"},{"name":"Dangal TV","logo":"https://i.postimg.co/8P7t9C9M/Dangal.png","url":"https://skymedia.bdixtv.live/live/dangal/index.m3u8"},{"name":"Star Sports 1","logo":"https://i.postimg.co/g2T4NbfV/Star-Sports-1.png","url":"https://skymedia.bdixtv.live/live/starsports1/index.m3u8"},{"name":"Sony Sports 1","logo":"https://i.postimg.co/yxB70z8g/Sony-Sports-1.png","url":"https://skymedia.bdixtv.live/live/sonysports1/index.m3u8"},{"name":"Sports 18","logo":"https://i.postimg.co/V6tB9B7g/Sports-18.png","url":"https://skymedia.bdixtv.live/live/sports18/index.m3u8"}];
+        const channels = [{"name":"T Sports Live","logo":"https://i.ibb.co/6w4n0mG/tsports.png","url":"https://live-par02.thesports.club/tsports/index.m3u8"},{"name":"Sony Sports Ten 1","logo":"https://i.postimg.co/yxB70z8g/Sony-Sports-1.png","url":"https://pubads.g.doubleclick.net/ssai/event/X7b8S3S_R_m8YVp3_Wv27g/master.m3u8"},{"name":"Somoy TV","logo":"https://iptv-org.github.io/images/languages/ben/SomoyTV.png","url":"https://youtube.com/playlist?list=PL_Xv4N7V3XGvGZ8Fh9GvPz5N8XF1X3X7b/live.m3u8"},{"name":"Jamuna TV","logo":"https://iptv-org.github.io/images/languages/ben/JamunaTV.png","url":"https://tv.jamuna.tv/live/master.m3u8"},{"name":"Independent TV","logo":"https://iptv-org.github.io/images/languages/ben/IndependentTV.png","url":"https://independent-live.cdn.bongo.solutions/hls/independent.m3u8"},{"name":"Channel 24","logo":"https://iptv-org.github.io/images/languages/ben/Channel24.png","url":"https://c24-live.cdn.bongo.solutions/hls/channel24.m3u8"},{"name":"Star Jalsha","logo":"https://i.postimg.co/N0fL4g7X/Star-Jalsha.png","url":"https://linear-hls-prod.snplay.in/hls/starjalsha/index.m3u8"},{"name":"Zee Bangla","logo":"https://i.postimg.co/8chbyVq9/Zee-Bangla.png","url":"https://linear-hls-prod.snplay.in/hls/zeebangla/index.m3u8"},{"name":"Sony Aath","logo":"https://i.postimg.co/fW0N6M0w/Sony-Aath.png","url":"https://linear-hls-prod.snplay.in/hls/sonyaath/index.m3u8"},{"name":"Star Plus","logo":"https://i.postimg.co/0yXvYVzG/Star-Plus.png","url":"https://linear-hls-prod.snplay.in/hls/starplus/index.m3u8"},{"name":"Sony MAX","logo":"https://i.postimg.co/bYgqf8zN/Sony-Max.png","url":"https://linear-hls-prod.snplay.in/hls/sonymax/index.m3u8"}];
         const player = document.getElementById('video-player');
-        const hls = new Hls();
+        let hls = new Hls({ max投BufferLength: 30, enableWorker: true });
 
         function playStream(url, btnElement) {
             document.querySelectorAll('.channel-btn').forEach(btn => btn.classList.remove('active'));
             if(btnElement) btnElement.classList.add('active');
 
             if (Hls.isSupported()) {
+                hls.destroy();
+                hls = new Hls();
                 hls.loadSource(url);
                 hls.attachMedia(player);
-                hls.on(Hls.Events.MANIFEST_PARSED, () => player.play());
+                hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    player.play().catch(e => console.log("Autoplay blocked, waiting for user interaction"));
+                });
             } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
                 player.src = url;
                 player.addEventListener('loadedmetadata', () => player.play());
             }
-            window.scrollTo({top: 0, behavior: 'smooth'});
         }
 
         function initGrid(data) {
@@ -80,16 +72,8 @@
                 btn.onclick = function() { playStream(ch.url, btn); };
                 grid.appendChild(btn);
                 
-                if(index === 0 && data.length === channels.length) {
-                    playStream(ch.url, btn);
-                }
+                if(index === 0) { playStream(ch.url, btn); }
             });
-        }
-
-        function filterChannels() {
-            const query = document.getElementById('search').value.toLowerCase();
-            const filtered = channels.filter(ch => ch.name.toLowerCase().includes(query));
-            initGrid(filtered);
         }
 
         initGrid(channels);
