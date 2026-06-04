@@ -3,37 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPTV PLAYER</title>
+    <title>PREMIUM SPORTS IPTV</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
-        body { background-color: #0b0c10; color: #fff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
-        .header { width: 100%; background: #1f2833; text-align: center; padding: 15px 0; border-bottom: 2px solid #ff0000; }
-        .header h1 { margin: 0; color: #ff0000; font-size: 24px; text-transform: uppercase; }
-        .player-container { width: 95%; max-width: 800px; margin: 20px 0; background: #000; border: 2px solid #333; border-radius: 8px; overflow: hidden; }
-        video { width: 100%; height: auto; aspect-ratio: 16/9; display: block; }
-        .grid-container { width: 95%; max-width: 1200px; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; padding-bottom: 40px; }
-        .channel-btn { background: #ffffff; color: #000; border: none; padding: 10px; border-radius: 8px; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; height: 110px; }
+        body { background-color: #060709; color: #fff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .header { width: 100%; background: #11141a; text-align: center; padding: 15px 0; border-bottom: 2px solid #00ff55; }
+        .header h1 { margin: 0; color: #00ff55; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; }
+        .player-container { width: 95%; max-width: 850px; margin: 15px 0; background: #000; border: 2px solid #1c2331; border-radius: 6px; overflow: hidden; }
+        video { width: 100%; height: auto; aspect-ratio: 16/9; display: block; background: #000; }
+        
+        .search-box { width: 95%; max-width: 850px; margin-bottom: 15px; }
+        .search-box input { width: 100%; padding: 12px 20px; background: #11141a; border: 1px solid #222; border-radius: 6px; color: #fff; font-size: 15px; box-sizing: border-box; outline: none; }
+        .search-box input:focus { border-color: #00ff55; }
+
+        .grid-container { width: 95%; max-width: 1200px; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; padding-bottom: 30px; }
+        .channel-btn { background: #ffffff; color: #000; border: none; padding: 10px; border-radius: 8px; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; height: 110px; transition: transform 0.2s; }
+        .channel-btn:hover { transform: scale(1.03); }
         .channel-btn img { height: 45px; max-width: 90%; object-fit: contain; }
-        .channel-btn span { font-size: 12px; font-weight: bold; text-align: center; color: #111; }
-        .channel-btn.active { border: 3px solid #00ff00; background: #fff; box-shadow: 0 0 10px #00ff00; }
+        .channel-btn span { font-size: 12px; font-weight: bold; text-align: center; color: #111; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; }
+        .channel-btn.active { border: 3px solid #00ff55; box-shadow: 0 0 12px #00ff55; background: #fff; }
+        @media(max-width: 600px){ .grid-container { grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); gap: 8px; } .channel-btn { height: 95px; } .channel-btn img { height: 35px; } }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>MY LIVE IPTV PANEL</h1>
+        <h1>⚽ LIVE SPORTS STREAMING</h1>
     </div>
 
     <div class="player-container">
-        <video id="video-player" controls autoplay playsinline muted></video>
+        <video id="video-player" controls autoplay playsinline></video>
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Search Channels..." onkeyup="filterChannels()">
     </div>
 
     <div class="grid-container" id="buttons-grid"></div>
 
     <script>
-        const channels = [{"name":"T Sports Live","logo":"https://i.ibb.co/6w4n0mG/tsports.png","url":"https://live-par02.thesports.club/tsports/index.m3u8"},{"name":"Sony Sports Ten 1","logo":"https://i.postimg.co/yxB70z8g/Sony-Sports-1.png","url":"https://pubads.g.doubleclick.net/ssai/event/X7b8S3S_R_m8YVp3_Wv27g/master.m3u8"},{"name":"Somoy TV","logo":"https://iptv-org.github.io/images/languages/ben/SomoyTV.png","url":"https://youtube.com/playlist?list=PL_Xv4N7V3XGvGZ8Fh9GvPz5N8XF1X3X7b/live.m3u8"},{"name":"Jamuna TV","logo":"https://iptv-org.github.io/images/languages/ben/JamunaTV.png","url":"https://tv.jamuna.tv/live/master.m3u8"},{"name":"Independent TV","logo":"https://iptv-org.github.io/images/languages/ben/IndependentTV.png","url":"https://independent-live.cdn.bongo.solutions/hls/independent.m3u8"},{"name":"Channel 24","logo":"https://iptv-org.github.io/images/languages/ben/Channel24.png","url":"https://c24-live.cdn.bongo.solutions/hls/channel24.m3u8"},{"name":"Star Jalsha","logo":"https://i.postimg.co/N0fL4g7X/Star-Jalsha.png","url":"https://linear-hls-prod.snplay.in/hls/starjalsha/index.m3u8"},{"name":"Zee Bangla","logo":"https://i.postimg.co/8chbyVq9/Zee-Bangla.png","url":"https://linear-hls-prod.snplay.in/hls/zeebangla/index.m3u8"},{"name":"Sony Aath","logo":"https://i.postimg.co/fW0N6M0w/Sony-Aath.png","url":"https://linear-hls-prod.snplay.in/hls/sonyaath/index.m3u8"},{"name":"Star Plus","logo":"https://i.postimg.co/0yXvYVzG/Star-Plus.png","url":"https://linear-hls-prod.snplay.in/hls/starplus/index.m3u8"},{"name":"Sony MAX","logo":"https://i.postimg.co/bYgqf8zN/Sony-Max.png","url":"https://linear-hls-prod.snplay.in/hls/sonymax/index.m3u8"}];
+        // ক্যাশে বাইপাস করে রিয়েল-টাইম ডেটা লোড করার মেকানিজম
+        const channels = [{"name":"T Sports Live","logo":"https://i.ibb.co/6w4n0mG/tsports.png","url":"http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8"},{"name":"GTV (Gazi TV)","logo":"https://iptv-org.github.io/images/languages/ben/GTV.png","url":"https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8"},{"name":"Somoy TV","logo":"https://iptv-org.github.io/images/languages/ben/SomoyTV.png","url":"https://bozztv.com/rongo/rongo-somoy/index.m3u8"},{"name":"Jamuna TV","logo":"https://iptv-org.github.io/images/languages/ben/JamunaTV.png","url":"https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8"},{"name":"Channel 24","logo":"https://iptv-org.github.io/images/languages/ben/Channel24.png","url":"https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8"},{"name":"Independent TV","logo":"https://iptv-org.github.io/images/languages/ben/IndependentTV.png","url":"https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8"},{"name":"Star Sports 1","logo":"https://i.postimg.co/g2T4NbfV/Star-Sports-1.png","url":"http://103.253.18.58:8000/play/a00m"},{"name":"Sony Sports Ten 1","logo":"https://i.postimg.co/yxB70z8g/Sony-Sports-1.png","url":"https://linear-hls-prod.snplay.in/hls/sonysports1/index.m3u8"},{"name":"Sports 18","logo":"https://i.postimg.co/V6tB9B7g/Sports-18.png","url":"https://linear-hls-prod.snplay.in/hls/sports18/index.m3u8"},{"name":"Star Jalsha","logo":"https://i.postimg.co/N0fL4g7X/Star-Jalsha.png","url":"https://linear-hls-prod.snplay.in/hls/starjalsha/index.m3u8"},{"name":"Zee Bangla","logo":"https://i.postimg.co/8chbyVq9/Zee-Bangla.png","url":"https://linear-hls-prod.snplay.in/hls/zeebangla/index.m3u8"},{"name":"Sony Aath","logo":"https://i.postimg.co/fW0N6M0w/Sony-Aath.png","url":"https://linear-hls-prod.snplay.in/hls/sonyaath/index.m3u8"}];
         const player = document.getElementById('video-player');
-        let hls = new Hls({ max投BufferLength: 30, enableWorker: true });
+        let hls = new Hls();
 
         function playStream(url, btnElement) {
             document.querySelectorAll('.channel-btn').forEach(btn => btn.classList.remove('active'));
@@ -44,9 +56,7 @@
                 hls = new Hls();
                 hls.loadSource(url);
                 hls.attachMedia(player);
-                hls.on(Hls.Events.MANIFEST_PARSED, () => {
-                    player.play().catch(e => console.log("Autoplay blocked, waiting for user interaction"));
-                });
+                hls.on(Hls.Events.MANIFEST_PARSED, () => player.play().catch(e => console.log("Autoplay waiting for user...")));
             } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
                 player.src = url;
                 player.addEventListener('loadedmetadata', () => player.play());
@@ -72,8 +82,14 @@
                 btn.onclick = function() { playStream(ch.url, btn); };
                 grid.appendChild(btn);
                 
-                if(index === 0) { playStream(ch.url, btn); }
+                if(index === 0 && data.length === channels.length) { playStream(ch.url, btn); }
             });
+        }
+
+        function filterChannels() {
+            const query = document.getElementById('search').value.toLowerCase();
+            const filtered = channels.filter(ch => ch.name.toLowerCase().includes(query));
+            initGrid(filtered);
         }
 
         initGrid(channels);
