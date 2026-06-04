@@ -1,475 +1,497 @@
 #EXTM3U
-#EXTINF:-1,8NTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",8NTV (Server 1)
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
-#EXTINF:-1,ABC 6 Indianapolis IN (WRTV) (720p)
-https://aegis-cloudfront-1.tubi.video/bc9ff1c7-4dc1-4e36-9ef0-25b28c595ada/playlist.m3u8
-#EXTINF:-1,ABC 10 San Diego CA (KGTV) (720p)
-https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8
-#EXTINF:-1,ACNN (480p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/91JLpxr.png",ACNN (Server 1)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_014/Stream/playlist.m3u8
-#EXTINF:-1,AFBTV Kupang (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",AFBTV Kupang (Server 1)
 https://afbtv.siar.us/live/afbtv.m3u8
-#EXTINF:-1,Al Jazeera (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png",Al Jazeera (Server 1)
 https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8
-#EXTINF:-1,Al Jazeera 2 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png",Al Jazeera 2 (Server 2)
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
-#EXTINF:-1,Al Jazeera Documentary (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png",Al Jazeera Documentary (Server 3)
 https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8
-#EXTINF:-1,Al Jazeera English (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png",Al Jazeera English (Server 4)
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1,Al Jazeera Mubasher (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png",Al Jazeera Mubasher (Server 5)
 https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8
-#EXTINF:-1,Al Jazeera Mubasher 24 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png",Al Jazeera Mubasher 24 (Server 6)
 https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
-#EXTINF:-1,Al Jazeera Mubasher Broadcast 2 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7bRVpnu.png",Al Jazeera Mubasher Broadcast 2 (Server 7)
 https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
-#EXTINF:-1,ANTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",ANTV (Server 2)
 https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8
-#EXTINF:-1,,ANTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",like Gecko) Chrome/65.0.3325.181 Safari/537.36" group-title="General",ANTV (Server 3)
 http://103.58.160.157:8278/720-ANTV/playlist.m3u8
-#EXTINF:-1,ARTV Canal Parlamento (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",ARTV Canal Parlamento (Server 1)
 https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8
-#EXTINF:-1,ATN Bangla UK (576p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Czxi7yk.png",Asharq Discovery (Server 1)
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vFpjggf.png",ATN Bangla UK (Server 1)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
-#EXTINF:-1,ATN News (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4qZQKjo.png",ATN News (Server 1)
 https://bozztv.com/rongo/rongo-ATNNews/index.m3u8
-#EXTINF:-1,BBC News (1080p)
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",BBC News (Server 1)
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
-#EXTINF:-1,BBC News Europe (1080p)
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",BBC News Europe (Server 2)
 http://103.213.31.109:90/BBCNewsHD/playlist.m3u8
-#EXTINF:-1,BBC News North America (1080p)
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",BBC News North America (Server 3)
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
-#EXTINF:-1,BBC News Pashto (720p)
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",BBC News Pashto (Server 4)
 https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_afghan_tv/pc_hd_abr_v2.mpd
-#EXTINF:-1,BBC One Channel Islands (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png",BBC One Channel Islands (Server 1)
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_channel_islands/hevc_iptv_mse_v0.mpd
-#EXTINF:-1,BizaarTV (720p)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png",beIN SPORTS XTRA (Server 1)
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png",beIN Sports XTRA en Espanol (Server 2)
+https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png",like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",beIN SPORTS Xtra en Español (Server 3)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8?ads.vf=SylQdpcCl2O
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",BizaarTV (Server 2)
 https://d3s08lnvd4zcd7.cloudfront.net/webvtt/v1/18584c3f3a2a4df8/88886061/master.m3u8
-#EXTINF:-1,BRTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",BRTV (Server 3)
 https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
-#EXTINF:-1,BRTV (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",BRTV (Server 4)
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
-#EXTINF:-1,BRTV Kaku Childrens Channel
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",BRTV Kaku Childrens Channel (Server 5)
 http://49.113.179.174:4022/udp/238.125.2.216:5140
-#EXTINF:-1,BRTV Science & Education Channel
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",BRTV Science & Education Channel (Server 6)
 http://49.113.179.174:4022/udp/238.125.3.121:5140
-#EXTINF:-1,BRTV 北京卫视 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",BRTV 北京卫视 (Server 7)
 http://go.bkpcp.top/mg/bjws
-#EXTINF:-1,BTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",BTV (Server 2)
 https://xtdslboppkkv-pull.bpmedialive.com/live/btv/abr.m3u8
-#EXTINF:-1,BTV (480p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",BTV (Server 3)
 https://streamfi-alphadgtl1.zettawiseroutes.com:8181/hls/stream.m3u8
-#EXTINF:-1,BTV Chattogram (1080p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",BTV Chattogram (Server 4)
 https://bozztv.com/rongo/rongo-BTVChattagram/index.m3u8
-#EXTINF:-1,BTV National (1080p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",BTV National (Server 5)
 https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/355ba051-9a60-48aa-adcf-5a6c64da8c5c/355ba051-9a60-48aa-adcf-5a6c64da8c5c_3_playlist.m3u8
-#EXTINF:-1,BTV News (720p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",BTV News (Server 6)
 https://live-evg2.tv360.metfone.com.kh/livetest/bayontest.stream/playlist.m3u8
-#EXTINF:-1,BTV Panamá (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",BTV Panamá (Server 7)
 https://stream.oursnetworktv.com/latin/btvpanama/playlist.m3u8
-#EXTINF:-1,BTV World (1080p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",BTV World (Server 8)
 https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/d96eb7f4-83c2-4472-9597-3568390a8ebf/d96eb7f4-83c2-4472-9597-3568390a8ebf_3_playlist.m3u8
-#EXTINF:-1,Canal 17 RTVD (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",Canal 17 RTVD (Server 8)
 https://protvradiostream.com:1936/rtvd17/ngrp:rtvd17_all/playlist.m3u8
-#EXTINF:-1,Canal Málaga RTV (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",Canal Málaga RTV (Server 9)
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
-#EXTINF:-1,,CarbonTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",CarbonTV (Server 4)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/0QU2LXMHQHCESK6R27B8/hls3/now,-1m/m.m3u8?ads.vf=AZYcqVziuxu
-#EXTINF:-1,CBS News 24/7 (720p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",CBS News 24/7 (Server 1)
 https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8
-#EXTINF:-1,CGNTV Chinese (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",CGNTV Chinese (Server 5)
 https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
-#EXTINF:-1,CGNTV Japan (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",CGNTV Japan (Server 6)
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
-#EXTINF:-1,CGNTV South Korea (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",CGNTV South Korea (Server 7)
 https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8
-#EXTINF:-1,Champaign Government Television (CGTV) (Champaign IL) (720p)
-https://champaign-cablecast.cablecast.tv/live/stream-2/live.m3u8
-#EXTINF:-1,Channel 24 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4JLkaF7.png",Channel 24 (Server 1)
 https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8
-#EXTINF:-1,Channel I (720p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png",Channel I (Server 2)
 https://tvsen6.aynaott.com/channeli/index.m3u8
-#EXTINF:-1,CNA (1080p)
+#EXTINF:-1 tvg-logo="https://codeit.al/wp-content/uploads/2020/08/cna.png",CNA (Server 1)
 https://live1.mediadesk.al/cnatvlive.m3u8
-#EXTINF:-1,CNA (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://codeit.al/wp-content/uploads/2020/08/cna.png",CNA (Server 2)
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1,CNA (Chaîne Nord Africaine) (360p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://codeit.al/wp-content/uploads/2020/08/cna.png",CNA (Server 3)
 https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8
-#EXTINF:-1,CNA Originals (1080p)
+#EXTINF:-1 tvg-logo="https://codeit.al/wp-content/uploads/2020/08/cna.png",CNA Originals (Server 4)
 https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,CRTV (360p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",CRTV (Server 10)
 http://69.64.57.208/crtv/playlist.m3u8
-#EXTINF:-1,DangerTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",DangerTV (Server 11)
 https://dk0n7jh428tzj.cloudfront.net/v1/dangertv/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1,DNTV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",DNTV (Server 8)
 https://tv.num221tech.com:5443/LiveApp/streams/dntv.m3u8
-#EXTINF:-1,DRTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",DRTV (Server 12)
 https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
-#EXTINF:-1,Elbeshara GTV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",Elbeshara GTV (Server 1)
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
-#EXTINF:-1,EmanTv (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",EmanTv (Server 9)
 https://avr.host247.net/live/emantv/playlist.m3u8
-#EXTINF:-1,ERT Sports 1 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EsczO2H.png",ERT Sports 1 (Server 1)
 http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts
-#EXTINF:-1,ERT Sports 2 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EsczO2H.png",ERT Sports 2 (Server 2)
 http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts
-#EXTINF:-1,FashionTV Europe (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",FashionTV Europe (Server 10)
 https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
-#EXTINF:-1,FashionTV Paris L'Original (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",FashionTV Paris L'Original (Server 11)
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
-#EXTINF:-1,FashionTV Secrets (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",FashionTV Secrets (Server 12)
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1
-#EXTINF:-1,FGTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",FGTV (Server 2)
 https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8
-#EXTINF:-1,Gazi TV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2Lzhiq6.png",Gazi TV (Server 1)
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
-#EXTINF:-1,GTV (540p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",GTV (Server 3)
 https://g2qd3exjy7an-hls-live.5centscdn.com/gtvghana/ghanaweb.stream/playlist.m3u8
-#EXTINF:-1,GTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",GTV (Server 4)
 https://indihuy.streamized.net/atm/DASH/globaltv/manifest.mpd
-#EXTINF:-1,GTV (576p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",GTV (Server 5)
 http://pro.reott8k.xyz/play/live.php?mac=00:1A:79:7B:BB:36&stream=1548700&extension=m3u8
-#EXTINF:-1,GTV (360p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",GTV (Server 6)
 http://91.220.221.60/gtv_hls/gtv_03.m3u8
-#EXTINF:-1,Haarlem105 RTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",Haarlem105 RTV (Server 13)
 https://d2qm50imcbcfqx.cloudfront.net/nlpo/clr-nlpo/haarlem105/index.m3u8
-#EXTINF:-1,Hope Channel India (576p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png",Hope Channel India (Server 3)
 https://mumt01.tangotv.in/HOPECHANNELINDIA/index.m3u8
-#EXTINF:-1,Hope Channel Inter-America
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png",Hope Channel Inter-America (Server 4)
 https://jstre.am/live/jsl:EC0Mq0i6HJU.m3u8
-#EXTINF:-1,Hope Channel Inter-America English (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png",Hope Channel Inter-America English (Server 5)
 https://jstre.am/live/jsl:UP9KAdlVrm8.m3u8
-#EXTINF:-1,Hope Channel International (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png",Hope Channel International (Server 6)
 https://jstre.am/live/jsl:cZXINbwrFj6.m3u8
-#EXTINF:-1,ICRTV Colima (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",ICRTV Colima (Server 14)
 https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
-#EXTINF:-1,Independent TV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/POXFhGN.png",Independent TV (Server 1)
 https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8
-#EXTINF:-1,interTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",interTV (Server 15)
 https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
-#EXTINF:-1,INTV Australia (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",INTV Australia (Server 13)
 http://tv1.intv.mk:1935/live/intv/index.m3u8
-#EXTINF:-1,Jalsha Movies HD (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/25eWjX2.png",Jalsha Movies HD (Server 1)
 http://103.229.254.25:7001/play/a0dt/index.m3u8
-#EXTINF:-1,Jamuna TV (1080p)
+#EXTINF:-1 tvg-logo="https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png",Jamuna TV (Server 1)
 https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8
-#EXTINF:-1,JRTV Järviradio (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",JRTV Järviradio (Server 16)
 https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8
-#EXTINF:-1,KempenTV (480p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",KempenTV (Server 14)
 http://ms7.mx-cd.net/tv/Omroep_de_Kempen.smil/playlist.m3u8
-#EXTINF:-1,KKRtv (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KHUSHBOO_BANGLA/images/LOGO_HD/image.png",Khushboo Bangla (Server 1)
+https://cdn-4.pishow.tv/live/1473/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",KKRtv (Server 17)
 http://stream.kkr.dk/live/kkr/playlist.m3u8
-#EXTINF:-1,KNTV-DT1 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",KNTV-DT1 (Server 15)
 https://d368vp0qqzvkid.cloudfront.net/11603/88889711/hls/master.m3u8?ads.xumo_channelId=88889711a&ads.xumo_ifaType=&ads.xumo_providerId=3822&ads.xumo_providerName=NBCNBA
-#EXTINF:-1,LaC News 24 (720p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",LaC News 24 (Server 2)
 https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
-#EXTINF:-1,LBFD RTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",LBFD RTV (Server 18)
 https://tnt-television.com/LBFD_RTV/index.m3u8
-#EXTINF:-1,LGTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",LGTV (Server 7)
 https://livestream.telvue.com/lexmedia3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia3/stream1/playlist.m3u8
-#EXTINF:-1,LifevisionTV (406p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",LifevisionTV (Server 16)
 https://tgn.bozztv.com/lifevision/lifevision/index.m3u8
-#EXTINF:-1,Lompoc TAP TV Channel 24 (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4JLkaF7.png",Lompoc TAP TV Channel 24 (Server 2)
 https://livestream.telvue.com/lompoccmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1,MagellanTV Now (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",MagellanTV Now (Server 17)
 https://amg00376-magellan-amg00376c5-samsung-au-1708.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungau/playlist.m3u8
-#EXTINF:-1,Miami Beach Tv (MBTV) (Miami Beach FL) (720p)
-https://edge-f.swagit.com/live/miamibeachfl/live-1-a/playlist.m3u8
-#EXTINF:-1,MNTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",MNTV (Server 18)
 https://mntv.livebox.co.in/mntvhls/live.m3u8
-#EXTINF:-1,MRTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",MRTV (Server 19)
 https://asia.sipradius.net/cache/SEAGames4/master.m3u8
-#EXTINF:-1,MRTV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",MRTV (Server 20)
 https://mrtvott.com/cache/MRTV-HD/master.m3u8
-#EXTINF:-1,MRTV 4 (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",MRTV 4 (Server 21)
 https://cdn-live-pyone.secureswiftcontent.com/han/MRTV4/MRTV4/LiveOutput/manifest.m3u8
-#EXTINF:-1,MRTV Entertainment
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",MRTV Entertainment (Server 22)
 https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
-#EXTINF:-1,MRTV NRC
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",MRTV NRC (Server 23)
 https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8
-#EXTINF:-1,NärTV (360p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",NärTV (Server 24)
 https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8
-#EXTINF:-1,Nashua GTV Channel 16 Nashua NH (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",Nashua GTV Channel 16 Nashua NH (Server 8)
 https://livestream.telvue.com/nashuanh3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1,News 24 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic (Server 1)
+https://saran-live.ercdn.net/natgeohd/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic (Server 2)
+https://live-fi.tvkaista.net/national-geographic/live.m3u8?hd=true
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic HD (Server 3)
+http://149.71.34.166:8002/play/a013/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic HD East (Server 4)
+https://tvpass.org/live/NationalGeographicEast/hd
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic Japan (Server 5)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic Wild (Server 6)
+https://saran-live.ercdn.net/natgeowild/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic Wild HD (Server 7)
+http://149.71.34.166:8002/play/a012/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",National Geographic Wild HD East (Server 8)
+https://tvpass.org/live/NationalGeographicWildEast/hd
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",News 24 (Server 3)
 https://bozztv.com/rongo/rongo-News24HD/index.m3u8
-#EXTINF:-1,News 24 (720p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",News 24 (Server 4)
 https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
-#EXTINF:-1,News 24 Albania (392p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",News 24 (Server 5)
+http://maxotts.maxdigitaltv.com/x-media/C9/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",News 24 Albania (Server 6)
 http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8
-#EXTINF:-1,News 24 MP & Chhattisgarh (576p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",News 24 MP & Chhattisgarh (Server 7)
 https://mumt04.tangotv.in/NEWS24MPCG/index.m3u8
-#EXTINF:-1,,NHK World Premium (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4ESi2La.png",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",NHK World Premium (Server 1)
 https://cdn4.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
-#EXTINF:-1,NHK World-Japan (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4ESi2La.png",NHK World-Japan (Server 2)
 https://livehub-voidnet.onrender.com/cluster/streamcore/jp/NHK_StreamOrchestrator.m3u8
-#EXTINF:-1,NHK World-Japan HD (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4ESi2La.png",NHK World-Japan HD (Server 3)
 https://nhk.lls.pbs.org/index.m3u8
-#EXTINF:-1,North Miami Beach TV (NMBTV) (North Miami Beach FL) (720p)
-https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/citynmb/G2044_002/playlist.m3u8
-#EXTINF:-1,Nortvisión (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",Nortvisión (Server 25)
 https://server.asilivehd.com:3242/live/nortvisionlive.m3u8
-#EXTINF:-1,NRTV (720p) [Geo-Blocked]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",NRTV (Server 26)
 https://viamotionhsi.netplus.ch/live/eds/nrtv/browser-HLS8/nrtv.m3u8
-#EXTINF:-1,NTV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV (Server 19)
 http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
-#EXTINF:-1,,NTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",NTV (Server 20)
 https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
-#EXTINF:-1,NTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV (Server 21)
+https://sstv.ssplay.mv/hls/local-channel/ntv-e3d4300b49c8c901e9339174215d7580/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV (Server 22)
 https://s-pl-01.mediatool.tv/playout/ntv-abr/index.m3u8
-#EXTINF:-1,NTV (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV (Server 23)
 https://dogus-live.daioncdn.net/ntv/ntv.m3u8
-#EXTINF:-1,NTV7
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV7 (Server 24)
 https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
-#EXTINF:-1,NTV Afrique (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV Afrique (Server 25)
 https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8
-#EXTINF:-1,NTV HD (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV HD (Server 26)
 https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=HSWg81JrQ3OqmwuWkEIDAQ&e=2077050299&scheme=https
-#EXTINF:-1,NTV IC Kakanj (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV IC Kakanj (Server 27)
 https://lon.rtsp.me/dEqnY-myGj84bKrieCIPfA/1743271667/hls/3dH3YAD6.m3u8
-#EXTINF:-1,NTV Telugu (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV Telugu (Server 28)
 https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8
-#EXTINF:-1,NTV+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",NTV+ (Server 29)
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
-#EXTINF:-1,,ONTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",ONTV (Server 30)
 https://cdn4.skygo.mn/live/disk1/ONTV/DASH-FTA/ONTV.mpd
-#EXTINF:-1,ONTV4U (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",ONTV4U (Server 31)
 https://cdn13.crtvnoc.com/ONTV4U-on-DistroTV/index.m3u8
-#EXTINF:-1,Pannon RTV (648p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",Pannon RTV (Server 27)
 https://stream.nmih.hu:4102/live.m3u8
-#EXTINF:-1,PGTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",PGTV (Server 9)
 https://streamer2.nexgen.bz/16-PGTV/index.m3u8
-#EXTINF:-1,PONTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",PONTV (Server 32)
 http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1,PromarTV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",PromarTV (Server 28)
 http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8
-#EXTINF:-1,PTV Sports (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CPm6GHA.png",PTV Sports (Server 1)
 http://103.250.28.74:8000/play/a019/index.m3u8
-#EXTINF:-1,Rai News 24 (720p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",Rai News 24 (Server 8)
 https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
-#EXTINF:-1,Rai News 24 HD (720p) [Geo-Blocked]
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",Rai News 24 HD (Server 9)
 https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
-#EXTINF:-1,RTRTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTRTV (Server 29)
 https://tv3ecuador.site/hls/stream/index.m3u8
-#EXTINF:-1,RTV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV (Server 30)
 http://iptv.rtv-ooe.at/stream.m3u8
-#EXTINF:-1,RTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV (Server 31)
 https://bozztv.com/rongo/rongo-RTV/index.m3u8
-#EXTINF:-1,RTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV (Server 32)
 https://rtv-stream2.a04f922e9e85c8d25ebfeae3dfd22a67.com/rtv/rtv.m3u8
-#EXTINF:-1,RTV 1 (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV 1 (Server 33)
 https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8
-#EXTINF:-1,RTV21
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV21 (Server 34)
 https://gjirafa-video-live.gjirafa.net/gjvideo-live/2cz-npl-jfn-9he/tracks-v2a1/mono.m3u8
-#EXTINF:-1,RTV38 (576p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV38 (Server 35)
 https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8
-#EXTINF:-1,RTV Arnhem (480p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Arnhem (Server 36)
 https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8
-#EXTINF:-1,RTV AS (576p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV AS (Server 37)
 https://srv1.adriatelekom.com/TVAS/index.m3u8
-#EXTINF:-1,RTV Bap (480p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Bap (Server 38)
 https://53be5ef2d13aa.streamlock.net/rtvbap/uzivo/playlist.m3u8
-#EXTINF:-1,RTV Canal 57 (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Canal 57 (Server 39)
 https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8
-#EXTINF:-1,RTV Chirripó (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Chirripó (Server 40)
 https://lstv.duckdns.org:449/hls/rtchirripo.m3u8
-#EXTINF:-1,RTV Drenthe (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Drenthe (Server 41)
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
-#EXTINF:-1,,RTV El Vendrell (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="Undefined",RTV El Vendrell (Server 42)
 https://liveingesta318.cdnmedia.tv/tvvendrelllive/smil:live.smil/playlist.m3u8
-#EXTINF:-1,RTV Glas Drine (404p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Glas Drine (Server 43)
 http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
-#EXTINF:-1,RTV GO! (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV GO! (Server 44)
 http://59132e529e3d1.streamlock.net:1935/Groningen1/Groningen1/playlist.m3u8
-#EXTINF:-1,RTV Herceg-Bosne (576p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Herceg-Bosne (Server 45)
 https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
-#EXTINF:-1,RTV Horizon (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Horizon (Server 46)
 https://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8
-#EXTINF:-1,RTV Islam (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Islam (Server 47)
 https://protokolldns.xyz/rtvislamweb554/index.m3u8
-#EXTINF:-1,RTV LOVE (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV LOVE (Server 48)
 https://d2o8iss0ldenh4.cloudfront.net/nlpo/clr-nlpo/rtvlove/index.m3u8
-#EXTINF:-1,RTV Maastricht (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Maastricht (Server 49)
 http://stream.rtvmaastricht.nl:8081/rtvm_live/tv/playlist.m3u8
-#EXTINF:-1,RTV Manilva (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Manilva (Server 50)
 https://stream.castr.com/627a72d21914543be01c1720/live_e2ae1780dc2a11eca660b7b17b7952a5/index.m3u8
-#EXTINF:-1,RTV Marbella (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Marbella (Server 51)
 https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
-#EXTINF:-1,RTV Meppel (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Meppel (Server 52)
 https://d2eanln3bsfb0d.cloudfront.net/nlpo/clr-nlpo/rtvmeppel/index.m3u8
-#EXTINF:-1,RTV NOF Achtkarspelen & Tytsjerksteradiel (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV NOF Achtkarspelen & Tytsjerksteradiel (Server 53)
 https://5e6ab219de8f5.streamlock.net/rtvnof/rtvnof/playlist.m3u8
-#EXTINF:-1,RTV Noord (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Noord (Server 54)
 https://media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8
-#EXTINF:-1,RTV Noord Extra (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Noord Extra (Server 55)
 https://media.rtvnoord.nl/live/rtvnoord/extra/index.m3u8
-#EXTINF:-1,RTV Noordoost Friesland (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Noordoost Friesland (Server 56)
 https://593aed234297b.streamlock.net/rtvnof2/live/playlist.m3u8
-#EXTINF:-1,RTV Nunspeet (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Nunspeet (Server 57)
 https://ms7.mx-cd.net/tv/262-2600774/RTV_Nunspeet.smil/playlist.m3u8
-#EXTINF:-1,RTV Oost (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Oost (Server 58)
 https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
-#EXTINF:-1,RTV Parkstad (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Parkstad (Server 59)
 https://live.streamteam.eu:8443/parkstad/parkstad/tv/playlist.m3u8
-#EXTINF:-1,RTV Pendimi (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Pendimi (Server 60)
 https://www.rtvpendimi.com:19360/tvpendimi/tvpendimi.m3u8
-#EXTINF:-1,RTV Purmerend (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Purmerend (Server 61)
 https://ms2.mx-cd.net/dtv-10/268-2641474/RTV_Purmerend_TV.smil/playlist.m3u8
-#EXTINF:-1,RTV Rijnmond (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Rijnmond (Server 62)
 https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
-#EXTINF:-1,RTV Rijnmond Extra (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Rijnmond Extra (Server 63)
 http://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv-extra/index.m3u8
-#EXTINF:-1,RTV Rijnstreek TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Rijnstreek TV (Server 64)
 https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8
-#EXTINF:-1,RTV Riobamba (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Riobamba (Server 65)
 https://sv72.ecuaradiotv.net/rtvhd/live/manifest.m3u8
-#EXTINF:-1,RTV Rwanda (480p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Rwanda (Server 66)
 http://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8
-#EXTINF:-1,RTV SLOS (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV SLOS (Server 67)
 https://d3b6teev8t7bb2.cloudfront.net/nlpo/clr-nlpo/rtvslos/index.m3u8
-#EXTINF:-1,RTV Utrecht (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Utrecht (Server 68)
 https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/rtvutrecht/index.m3u8
-#EXTINF:-1,RTV Veluwezoom (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Veluwezoom (Server 69)
 https://dt4pogjgi3q8s.cloudfront.net/nlpo/clr-nlpo/rtvveluwezoom/index.m3u8
-#EXTINF:-1,RTV Vida (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Vida (Server 70)
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
-#EXTINF:-1,RTV Westerwolde (432p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Westerwolde (Server 71)
 https://media.rtvwesterwolde.nl/hls/live/index.m3u8
-#EXTINF:-1,RTV Zenica (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Zenica (Server 72)
 https://stream.rtvze.ba/live/123/123.m3u8
-#EXTINF:-1,RTV Zulthe (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTV Zulthe (Server 73)
 http://ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8
-#EXTINF:-1,RTVC (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTVC (Server 74)
 https://cdn140m.panaccess.com/HLS/RTVC/index.m3u8
-#EXTINF:-1,,RTVC Cardedeu (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160" group-title="Undefined",RTVC Cardedeu (Server 75)
 https://liveingesta118.cdnmedia.tv/cardedeutvlive/smil:live.smil/playlist.m3u8
-#EXTINF:-1,RTVi (450p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTVi (Server 76)
 https://s70378.cdn.ngenix.net/rtvi/index.m3u8
-#EXTINF:-1,RTVS1
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",RTVS1 (Server 77)
 http://51.254.199.122:8080/RTVS1/index.m3u8
-#EXTINF:-1,San Marino RTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",San Marino RTV (Server 78)
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8
-#EXTINF:-1,San Marino RTV Sport (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",San Marino RTV Sport (Server 79)
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
-#EXTINF:-1,Santvani Channel (576p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",Santvani Channel (Server 33)
 https://cdn-2.pishow.tv/live/475/master.m3u8
-#EXTINF:-1,SBTV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",SBTV (Server 9)
 https://live.leveex.hr/hls/live.m3u8
-#EXTINF:-1,SelangorTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",SelangorTV (Server 80)
 https://live.mana2.my/SelangorTv/index.m3u8?auth_key=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd&token=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd
-#EXTINF:-1,SGTV (Seminole County FL) (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",SGTV (Server 10)
 https://live.seminolecountyfl.gov/live-2/live/stream-1/live.m3u8
-#EXTINF:-1,Silverbird News 24 (576p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",Silverbird News 24 (Server 10)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_029/Stream/playlist.m3u8
-#EXTINF:-1,SNTV Daljir (576p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",SNTV Daljir (Server 34)
 https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
-#EXTINF:-1,Somoy News TV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/i54AQic.png",Somoy News TV (Server 1)
 https://bozztv.com/rongo/rongo-somoy/index.m3u8
-#EXTINF:-1,SONGTV Russia
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",SONGTV Russia (Server 11)
 https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
-#EXTINF:-1,Sony Sports Ten 1 (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",Sony Sports Ten 1 (Server 1)
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201.m3u8
-#EXTINF:-1,Sony Sports Ten 1 HD (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",Sony Sports Ten 1 HD (Server 2)
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8
-#EXTINF:-1,Sony Sports Ten 2 (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",Sony Sports Ten 2 (Server 3)
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%202.m3u8
-#EXTINF:-1,Sony Sports Ten 2 HD (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",Sony Sports Ten 2 HD (Server 4)
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%202%20HD.m3u8
-#EXTINF:-1,Sony Sports Ten 3 Hindi (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",Sony Sports Ten 3 Hindi (Server 5)
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203.m3u8
-#EXTINF:-1,Sony Sports Ten 3 Hindi HD (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",Sony Sports Ten 3 Hindi HD (Server 6)
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8
-#EXTINF:-1,Sony Sports Ten 4 (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",Sony Sports Ten 4 (Server 7)
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%204.m3u8
-#EXTINF:-1,Sony Sports Ten 4 Telugu (1080p)
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",Sony Sports Ten 4 Telugu (Server 8)
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%204%20HD.m3u8
-#EXTINF:-1,SporTV (1280p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",SporTV (Server 81)
 https://stm.sinalmycn.com/21000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1,SporTV 2 (1280p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",SporTV 2 (Server 82)
 https://stm.sinalmycn.com/21003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1,SporTV 2 Alternativo (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",SporTV 2 Alternativo (Server 83)
 https://stm.sinalmycn.com/19025/video.m3u8
-#EXTINF:-1,SporTV 3 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",SporTV 3 (Server 84)
 https://stm.sinalmycn.com/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1,SporTV Alternativo (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",SporTV Alternativo (Server 85)
 https://stm.sinalmycn.com/19024/video.m3u8
-#EXTINF:-1,Star Sports 1 HD (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E5jjKHI.png",Star Sports 1 HD (Server 1)
 http://103.253.18.58:8000/play/a00m
-#EXTINF:-1,Star Sports 1 Hindi (576p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E5jjKHI.png",Star Sports 1 Hindi (Server 2)
 http://103.253.18.58:8000/play/a03o
-#EXTINF:-1,Star Sports 2 Hindi HD (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E5jjKHI.png",Star Sports 2 Hindi HD (Server 3)
 http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1,Sun RTV (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",Sun RTV (Server 86)
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
-#EXTINF:-1,T Sports (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EsczO2H.png",T Sports (Server 3)
 https://tvsen7.aynaott.com/tsportsfhd/index.m3u8
-#EXTINF:-1,Ten Sports Pakistan
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nnqpYNm.png",Ten Sports Pakistan (Server 1)
 http://121.91.61.106:8000/play/a04h/index.m3u8
-#EXTINF:-1,TNTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",TNTV (Server 35)
 https://tntv-samsung-fr.amagi.tv/playlist.m3u8
-#EXTINF:-1,UGTV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",UGTV (Server 12)
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
-#EXTINF:-1,Unbeaten Sports Channel (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nnqpYNm.png",Unbeaten Sports Channel (Server 2)
 https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
-#EXTINF:-1,UnionTV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",UnionTV (Server 36)
 https://tigocloud.desdeparaguay.net/800tv/800tv/playlist.m3u8
-#EXTINF:-1,Unleashed by DOGTV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",Unleashed by DOGTV (Server 13)
 https://amg26269-amg26269c2-distrotv-us-8939.playouts.now.amagi.tv/playlist/amg26269-dogtv-unleashedbydogtv-distrotvus/playlist.m3u8
-#EXTINF:-1,VerTV (VTV) (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",Unleashed by DOGTV (Server 14)
+https://amg26269-dogtv-amg26269c2-stirr-us-8504.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/y00t9hr.png",VerTV (Server 87)
 https://5f700d5b2c46f.streamlock.net/vertv/vertv/playlist.m3u8
-#EXTINF:-1,WBTV At the Movies (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV At the Movies (Server 10)
 https://live-manifest.production-public.tubi.io/live/c24f15d1-f67e-4534-bfde-76b9a1b74360/playlist.m3u8
-#EXTINF:-1,WBTV Chasing Criminals [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Chasing Criminals (Server 11)
 https://live-manifest.production-public.tubi.io/live/2bbace1f-ef14-4f1d-84f3-4fa07e4cf498/playlist.m3u8
-#EXTINF:-1,WBTV Classic Cinema (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Classic Cinema (Server 12)
 https://live-manifest.production-public.tubi.io/live/c9a11be6-98bc-4a1b-a8f0-6236bffa7286/playlist.m3u8
-#EXTINF:-1,WBTV Crime scenes (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Crime scenes (Server 13)
 https://live-manifest.production-public.tubi.io/live/f825d887-cd89-4520-9960-699bb3ef076d/playlist.m3u8
-#EXTINF:-1,WBTV Family Faves [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Family Faves (Server 14)
 https://live-manifest.production-public.tubi.io/live/39524910-cb76-47bb-bd3b-1ab8676f0981/playlist.m3u8
-#EXTINF:-1,WBTV Family Unscripted (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Family Unscripted (Server 15)
 https://live-manifest.production-public.tubi.io/live/f451ef60-2bf2-4f54-8833-5e3495b7ea16/playlist.m3u8
-#EXTINF:-1,WBTV Generation Drama (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Generation Drama (Server 16)
 https://live-manifest.production-public.tubi.io/live/a8250c51-f628-4936-97cb-67a931d2d7d8/playlist.m3u8
-#EXTINF:-1,WBTV Ghosts are Real (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Ghosts are Real (Server 17)
 https://live-manifest.production-public.tubi.io/live/0893a942-6252-4604-9e43-147c920a3250/playlist.m3u8
-#EXTINF:-1,WBTV HBO Boxing (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV HBO Boxing (Server 18)
 https://live-manifest.production-public.tubi.io/live/9fe78734-1db2-49b4-af7b-3c89f5f256ad/playlist.m3u8
-#EXTINF:-1,WBTV How To (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV How To (Server 19)
 https://live-manifest.production-public.tubi.io/live/8ca40844-aba2-49f8-a58c-37e5597b170e/playlist.m3u8
-#EXTINF:-1,WBTV In The Garage (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV In The Garage (Server 20)
 https://live-manifest.production-public.tubi.io/live/2fe3d2d3-5dca-4da5-999f-4fcc54f4a34b/playlist.m3u8
-#EXTINF:-1,WBTV Living With Evil (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Living With Evil (Server 21)
 https://live-manifest.production-public.tubi.io/live/963f4a88-fe30-44f7-ae20-09a08eeb7cf7/playlist.m3u8
-#EXTINF:-1,WBTV Love & Desire [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Love & Desire (Server 22)
 https://live-manifest.production-public.tubi.io/live/d25f9356-8a66-41fb-826d-3545848cfec8/playlist.m3u8
-#EXTINF:-1,WBTV Love and Marriage (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Love and Marriage (Server 23)
 https://live-manifest.production-public.tubi.io/live/550da437-5c67-44a3-a95e-a897fc7d6612/playlist.m3u8
-#EXTINF:-1,WBTV Mysterious Worlds (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Mysterious Worlds (Server 24)
 https://live-manifest.production-public.tubi.io/live/8fa6f1c5-c602-426c-999d-8651180ca7ff/playlist.m3u8
-#EXTINF:-1,WBTV News (720p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV News (Server 25)
 https://d2ugl2g2gz1giy.cloudfront.net/index.m3u8
-#EXTINF:-1,WBTV Nikita (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Nikita (Server 26)
 https://live-manifest.production-public.tubi.io/live/69aad4c1-9bb9-49db-9b2a-f8b26a7c3582/playlist.m3u8
-#EXTINF:-1,WBTV Paws and Claws (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Paws and Claws (Server 27)
 https://live-manifest.production-public.tubi.io/live/29c0f72f-e546-4599-a7d5-ad1c2928d531/playlist.m3u8
-#EXTINF:-1,WBTV Sweet Escapes (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Sweet Escapes (Server 28)
 https://live-manifest.production-public.tubi.io/live/7b765297-03ed-4d4a-90d7-3879e776c938/playlist.m3u8
-#EXTINF:-1,WBTV The FBI (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV The FBI (Server 29)
 https://live-manifest.production-public.tubi.io/live/0e9b3dc6-8b19-4854-b0d1-df85b9ffa282/playlist.m3u8
-#EXTINF:-1,WBTV Travel and Adventure (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Travel and Adventure (Server 30)
 https://live-manifest.production-public.tubi.io/live/399519f7-b848-4c8e-aaac-884546a1d916/playlist.m3u8
-#EXTINF:-1,WBTV Unique Lives (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Unique Lives (Server 31)
 https://live-manifest.production-public.tubi.io/live/5602f3d6-c62c-4109-8de7-b7d2434ab63b/playlist.m3u8
-#EXTINF:-1,WBTV Watchlist [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Watchlist (Server 32)
 https://live-manifest.production-public.tubi.io/live/b399c32f-0c5f-4609-a2f2-94a773397b44/playlist.m3u8
-#EXTINF:-1,WBTV Welcome Home (720p) [Geo-blocked]
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJpyzPbB/afbtv.png",WBTV Welcome Home (Server 33)
 https://live-manifest.production-public.tubi.io/live/edb986fe-9600-4f83-8b6d-8593986f2f3a/playlist.m3u8
-#EXTINF:-1,WCGtv Public (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",WCGtv Public (Server 15)
 https://wowzastream.westmancom.com/wcgtvlive/wcgtvPSA.stream/master.m3u8
-#EXTINF:-1,WGTV-DT3 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b0Wx7pE.png",WGTV-DT3 (Server 16)
 https://wgtvdt3.lls.pbs.org/wgtvdt3-cmaf-hls.m3u8
-#EXTINF:-1,Willow Sports (1080p)
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png",Willow Sports (Server 1)
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
-#EXTINF:-1,WiseHumanTv (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png",WiseHumanTv (Server 37)
 https://avr.host247.net/live/WiseHumanTv/playlist.m3u8
