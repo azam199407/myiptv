@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>আমার লাইভ আইপিটিভি প্লেয়ার</title>
+    <title>My IPTV Player</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #121620; color: white; text-align: center; }
-        h1 { color: #00ff55; }
-        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: #fff; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: auto; }
+        input { width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: none; background: #222; color: white; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+        .card { background: #1a1a1a; padding: 15px; border-radius: 10px; text-align: center; border: 1px solid #333; cursor: pointer; transition: 0.3s; }
+        .card:hover { background: #ff4757; transform: scale(1.05); }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>টিভি চ্যানেল প্লেয়ার</h1>
-        <p>আমাদের চ্যানেলগুলো প্রতি ৩০ মিনিট পর পর স্বয়ংক্রিয়ভাবে আপডেট হয়।</p>
+        <h1>📺 আমার IPTV চ্যানেল লিস্ট</h1>
+        <input type="text" id="search" placeholder="চ্যানেল সার্চ করুন...">
+        <div id="list" class="grid">লোড হচ্ছে...</div>
     </div>
 
     <script>
-        // পাইথন স্ক্রিপ্টটি প্রতি ৩০ মিনিট পর পর এসে এই নিচের ভেরিয়েবলটির ভেতরে সব লাইভ চ্যানেল পুশ করবে
-        const channels = [
+        const M3U_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/myiptv/main/live.m3u';
+        fetch(M3U_URL).then(r => r.text()).then(data => {
+            const lines = data.split('\n');
+            let html = '';
+            for(let i=0; i<lines.length; i++){
+                if(lines[i].startsWith('#EXTINF')){
+                    const name = lines[i].split(',')[1];
+                    const url = lines[i+1];
+                    html += `<div class="card" onclick="window.open('${url}', '_blank')">${name}</div>`;
+                }
+            }
+            document.getElementById('list').innerHTML = html;
+        });
 
-];
-        
-        console.log("মোট লাইভ চ্যানেল লোড হয়েছে:", channels.length);
+        document.getElementById('search').addEventListener('input', function(e) {
+            const term = e.target.value.toLowerCase();
+            document.querySelectorAll('.card').forEach(card => {
+                card.style.display = card.innerText.toLowerCase().includes(term) ? 'block' : 'none';
+            });
+        });
     </script>
 </body>
 </html>
