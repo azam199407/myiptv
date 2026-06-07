@@ -24,12 +24,14 @@ def parse_category(meta):
     if "movie" in meta_lower or "ent" in meta_lower or "general" in meta_lower: return "Entertainment"
     return "All"
 
-# ⏱️ আপনার রিকোয়েস্ট অনুযায়ী লোডিং টাইম বাড়িয়ে ২০ সেকেন্ড (timeout=20) করা হলো
+# ⏱️ আপনার রিকোয়েস্ট অনুযায়ী: একসাথে মাত্র ৫টি লিংক টেস্ট হবে এবং ৩০ সেকেন্ড লোডিং টাইম থাকবে
 async def test_link(session, semaphore, name, category, logo, url):
-    async with semaphore: # একসাথে অতিরিক্ত রিকোয়েস্ট ব্লক করে জ্যাম এড়ানোর জন্য
+    async with semaphore: # একসাথে অতিরিক্ত রিকোয়েস্ট ব্লক করে সেফ রাখার জন্য
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-            async with session.get(url, headers=headers, timeout=20, allow_redirects=True) as response:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            }
+            async with session.get(url, headers=headers, timeout=30, allow_redirects=True) as response:
                 if response.status in [200, 206]:
                     return {"name": name, "category": category, "logo": logo, "url": url}
         except:
@@ -39,7 +41,7 @@ async def test_link(session, semaphore, name, category, logo, url):
 async def fetch_m3u(session, url):
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-        async with session.get(url, headers=headers, timeout=25) as response:
+        async with session.get(url, headers=headers, timeout=30) as response:
             if response.status == 200:
                 return await response.text()
     except Exception as e:
@@ -55,8 +57,8 @@ async def main():
     tasks = []
     seen_urls = set()
     
-    # সার্ভার যেন রিকোয়েস্ট ব্লক না করে সেজন্য লিমিট ৩০ করা হলো
-    semaphore = asyncio.Semaphore(30) 
+    # 🎯 আপনার আইডিয়া: স্পিড লিমিট কমিয়ে একসাথে মাত্র ৫টি করে লিংক টেস্ট করার সেমাফোর
+    semaphore = asyncio.Semaphore(5) 
     
     print("📦 সব সোর্সের লিংক স্ক্র্যাপিং এবং ডুপ্লিকেট ফিল্টারিং শুরু হয়েছে...")
     for m3u_content in m3u_contents:
@@ -82,19 +84,19 @@ async def main():
                     category = parse_category(lines[i])
                     tasks.append(test_link(session, semaphore, name, category, logo, stream_url))
         
-    print(f"⚡ মোট {len(tasks)} টি লিংক ২০ সেকেন্ড লোডিং টাইম দিয়ে নিখুঁতভাবে টেস্ট করা হচ্ছে... দয়া করে একটু অপেক্ষা করুন।")
+    print(f"⚡ মোট {len(tasks)} টি লিংক প্রতিবারে ৫টি করে এবং ৩০ সেকেন্ড টাইমার দিয়ে টেস্ট করা হচ্ছে... একটু সময় লাগবে।")
     
     valid_channels = []
     if tasks:
-        # টেস্ট করার জন্য কানেক্টর লিমিট সেট করা হলো
-        connector = aiohttp.TCPConnector(limit=30)
+        # কানেক্টর লিমিটও ৫ করে দেওয়া হলো যাতে গিটহাব কোনোভাবেই ব্লক না খায়
+        connector = aiohttp.TCPConnector(limit=5)
         async with aiohttp.ClientSession(connector=connector) as session:
             results = await asyncio.gather(*tasks)
             valid_channels = [r for r in results if r is not None]
         
-    print(f"✅ টেস্টিং শেষ! সম্পূর্ণ সচল চ্যানেল পাওয়া গেছে: {len(valid_channels)} টি।")
+    print(f"✅ টেস্টিং শেষ! সম্পূর্ণ সচল ও ভেরিফাইড চ্যানেল পাওয়া গেছে: {len(valid_channels)} টি।")
 
-    # --- 📄 index.html ফাইল আপডেট লজিক ---
+    # --- 📄 index.html ফাইল আপডেট లజিক ---
     if os.path.exists(GITHUB_FILE):
         with open(GITHUB_FILE, "r", encoding="utf-8") as f:
             current_content = f.read()
@@ -127,7 +129,7 @@ async def main():
         
     with open(M3U_OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.writelines(m3u_lines)
-    print("🎉 live.m3u প্লেলিস্ট ফাইল সফলভাবে তৈরি ও আপডেট হয়েছে!")
+    print("🎉 live.m3u প্লেলিস্ট ফাইল নিখুঁতভাবে সেভ ও আপডেট হয়েছে!")
 
 if __name__ == "__main__":
     asyncio.run(main())
