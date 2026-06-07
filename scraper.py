@@ -23,9 +23,10 @@ def parse_category(meta):
     if "movie" in meta_lower or "ent" in meta_lower or "general" in meta_lower: return "Entertainment"
     return "All"
 
+# ⏱️ টাইম-আউট ৩ সেকেন্ড থেকে বাড়িয়ে ৮ সেকেন্ড করা হলো, যেন স্লো লিংকগুলোও ধরা পড়ে
 async def test_link(session, name, category, logo, url):
     try:
-        async with session.get(url, timeout=3, allow_redirects=True) as response:
+        async with session.get(url, timeout=8, allow_redirects=True) as response:
             if response.status == 200:
                 return {"name": name, "category": category, "logo": logo, "url": url}
     except:
@@ -34,7 +35,7 @@ async def test_link(session, name, category, logo, url):
 
 async def fetch_m3u(session, url):
     try:
-        async with session.get(url, timeout=10) as response:
+        async with session.get(url, timeout=15) as response:
             if response.status == 200:
                 return await response.text()
     except Exception as e:
@@ -55,10 +56,12 @@ async def main():
         if not m3u_content:
             continue
             
-        lines = m3u_content.split('\n')
+        # লাইনের ভেতরের অদৃশ্য ফাঁকা জায়গা বা ক্যারেক্টার দূর করার জন্য স্প্লিট লজিক উন্নত করা হলো
+        lines = [line.strip() for line in m3u_content.split('\n') if line.strip()]
         for i in range(len(lines)):
             if lines[i].startswith("#EXTINF:"):
-                stream_url = lines[i+1].strip() if (i+1) < len(lines) else ""
+                # পরের লাইনে স্ট্রিম ইউআরএল আছে কিনা তা চেক করা
+                stream_url = lines[i+1] if (i+1) < len(lines) else ""
                 
                 if stream_url and stream_url.startswith("http"):
                     if stream_url in seen_urls:
@@ -76,7 +79,9 @@ async def main():
         
     print(f"⚡ ইউনিক মোট {len(tasks)} টি লিংক টেস্ট করা হচ্ছে... দয়া করে অপেক্ষা করুন।")
     if tasks:
-        async with aiohttp.ClientSession() as session:
+        # গিটহাব সার্ভারের ওপর লোড কমাতে কানেক্টর লিমিট ৫০ করে দেওয়া হলো
+        connector = aiohttp.TCPConnector(limit=50)
+        async with aiohttp.ClientSession(connector=connector) as session:
             results = await asyncio.gather(*tasks)
     else:
         results = []
