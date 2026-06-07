@@ -2,8 +2,8 @@ name: IPTV Async Auto Tester Engine
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # প্রতি ৩০ মিনিট পর পর অটোমেটিক রান হবে
-  workflow_dispatch:        # এর ফলে আপনি চাইলে যেকোনো সময় ম্যানুয়ালিও রান করতে পারবেন
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   build-and-test:
@@ -31,6 +31,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add index.html live.m3u
+        # ফাইল পরিবর্তন না হলেও যেন এরর না আসে তার জন্য ট্রিকস যোগ করা হলো
         git diff --quiet && git diff --staged --quiet || (git commit -m "🔄 Live Channel Synced [Async Engine]" && git push)
-      env:
-        GITHUB_TOKEN: ${{ secrets.IPTV_TOKEN }}
