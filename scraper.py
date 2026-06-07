@@ -4,16 +4,16 @@ import json
 import asyncio
 import aiohttp
 
-
+# --- 🚀 একাধিক সোর্স কনফিগারেশন (স্পেস ফিক্স করা হয়েছে) ---
 SOURCE_URLS = [
-    "https://raw.githubusercontent.com/Lane0118/IPTV/main/index.m3u", # অলওয়েজ আপডেট থাকা গ্লোবাল সোর্স
+    "https://raw.githubusercontent.com/Lane0118/IPTV/main/index.m3u", # গ্লোবাল সোর্স (ফিক্সড)
     "https://iptv-org.github.io/iptv/countries/bd.m3u",  # বাংলাদেশ
     "https://iptv-org.github.io/iptv/countries/in.m3u",  # ইন্ডিয়া
-    "https://iptv-org.github.io/iptv/categories/movies.m3u" # মুভিজ ক্যাটাগরি
+    "https://iptv-org.github.io/iptv/categories/movies.m3u" # মুভিজ
 ]
 
 GITHUB_FILE = "index.html"
-M3U_OUTPUT_FILE = "live.m3u"  # 🎯 অটোমেটিক এই নামে .m3u ফাইল তৈরি হবে
+M3U_OUTPUT_FILE = "live.m3u"
 
 def parse_category(meta):
     meta_lower = meta.lower()
@@ -24,7 +24,6 @@ def parse_category(meta):
     if "movie" in meta_lower or "ent" in meta_lower or "general" in meta_lower: return "Entertainment"
     return "All"
 
-# ⏱️ টাইম-আউট ৩ সেকেন্ড থেকে বাড়িয়ে ৮ সেকেন্ড করা হলো, যেন স্লো লিংকগুলোও ধরা পড়ে
 async def test_link(session, name, category, logo, url):
     try:
         async with session.get(url, timeout=8, allow_redirects=True) as response:
@@ -57,11 +56,9 @@ async def main():
         if not m3u_content:
             continue
             
-        # লাইনের ভেতরের অদৃশ্য ফাঁকা জায়গা বা ক্যারেক্টার দূর করার জন্য স্প্লিট লজিক উন্নত করা হলো
         lines = [line.strip() for line in m3u_content.split('\n') if line.strip()]
         for i in range(len(lines)):
             if lines[i].startswith("#EXTINF:"):
-                # পরের লাইনে স্ট্রিম ইউআরএল আছে কিনা তা চেক করা
                 stream_url = lines[i+1] if (i+1) < len(lines) else ""
                 
                 if stream_url and stream_url.startswith("http"):
@@ -80,7 +77,6 @@ async def main():
         
     print(f"⚡ ইউনিক মোট {len(tasks)} টি লিংক টেস্ট করা হচ্ছে... দয়া করে অপেক্ষা করুন।")
     if tasks:
-        # গিটহাব সার্ভারের ওপর লোড কমাতে কানেক্টর লিমিট ৫০ করে দেওয়া হলো
         connector = aiohttp.TCPConnector(limit=50)
         async with aiohttp.ClientSession(connector=connector) as session:
             results = await asyncio.gather(*tasks)
