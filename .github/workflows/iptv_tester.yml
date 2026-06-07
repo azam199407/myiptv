@@ -2,8 +2,8 @@ name: IPTV Async Auto Tester Engine
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
+    - cron: '*/30 * * * *'  # প্রতি ৩০ মিনিট পর পর অটো রান হবে
+  workflow_dispatch:        # ম্যানুয়ালি রান করার বাটন
 
 jobs:
   build-and-test:
@@ -12,18 +12,15 @@ jobs:
     steps:
     - name: Check out repository
       uses: actions/checkout@v3
+      with:
+        persist-credentials: true
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install aiohttp
-
-    - name: Run IPTV Async Scraper & Tester
+    - name: Run IPTV Scraper
       run: python scraper.py
 
     - name: Commit and Push changes
@@ -31,5 +28,9 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add index.html live.m3u
-        # ফাইল পরিবর্তন না হলেও যেন এরর না আসে তার জন্য ট্রিকস যোগ করা হলো
-        git diff --quiet && git diff --staged --quiet || (git commit -m "🔄 Live Channel Synced [Async Engine]" && git push)
+        # কোনো পরিবর্তন না থাকলে যেন এরর না দেয়
+        git commit -m "🔄 Live Channel Force Synced" || echo "No changes to commit"
+        # যেকোনো ব্রাঞ্চেই হোক না কেন অটোমেটিক পুশ করার কমান্ড
+        git push origin HEAD
+      env:
+        GITHUB_TOKEN: ${{ secrets.IPTV_TOKEN }}
