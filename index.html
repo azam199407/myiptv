@@ -2,61 +2,46 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My IPTV Player</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: #fff; margin: 0; padding: 20px; }
-        .container { max-width: 900px; margin: auto; }
-        input { width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: none; background: #222; color: white; box-sizing: border-box; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
-        .card { background: #1a1a1a; padding: 15px; border-radius: 10px; text-align: center; border: 1px solid #333; cursor: pointer; transition: 0.3s; }
-        .card:hover { background: #ff4757; transform: scale(1.05); }
+        body { margin: 0; display: flex; flex-direction: column; height: 100vh; background: #0f0f0f; color: white; font-family: sans-serif; }
+        #player-container { height: 350px; background: black; width: 100%; display: flex; align-items: center; justify-content: center; }
+        #video-player { width: 100%; height: 100%; }
+        #list-container { flex: 1; overflow-y: auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+        .card { background: #1a1a1a; padding: 10px; border-radius: 8px; text-align: center; cursor: pointer; border: 1px solid #333; }
+        .card img { width: 40px; height: 40px; display: block; margin: 0 auto 5px; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>📺 আমার IPTV চ্যানেল লিস্ট</h1>
-        <input type="text" id="search" placeholder="চ্যানেল সার্চ করুন...">
-        <div id="list" class="grid">লোড হচ্ছে...</div>
+
+    <div id="player-container">
+        <video id="video-player" controls autoplay></video>
+    </div>
+
+    <div id="list-container">
+        <input type="text" id="search" placeholder="চ্যানেল সার্চ করুন..." style="width:100%; padding:10px; margin-bottom:15px; border-radius:5px;">
+        <div id="list" class="grid"></div>
     </div>
 
     <script>
-        // এখানে আপনার ইউজারনেম বসান
-        const M3U_URL = 'https://raw.githubusercontent.com/azam199407/myiptv/main/live.m3u';
-
-        async function loadChannels() {
-            try {
-                const response = await fetch(M3U_URL);
-                const data = await response.text();
-                const listDiv = document.getElementById('list');
-                listDiv.innerHTML = '';
-                
-                const lines = data.split('\n');
-                let html = '';
-                
-                for(let i = 0; i < lines.length; i++) {
-                    if(lines[i].startsWith('#EXTINF')) {
-                        const name = lines[i].split(',')[1];
-                        const url = lines[i+1];
-                        if (name && url && url.startsWith('http')) {
-                            html += `<div class="card" onclick="window.open('${url.trim()}', '_blank')">${name.trim()}</div>`;
-                        }
-                    }
+        const M3U_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/myiptv/main/live.m3u';
+        
+        fetch(M3U_URL).then(r => r.text()).then(data => {
+            const lines = data.split('\n');
+            let html = '';
+            for(let i = 0; i < lines.length; i++) {
+                if(lines[i].startsWith('#EXTINF')) {
+                    const name = lines[i].split(',')[1];
+                    const logo = lines[i].match(/tvg-logo="([^"]+)"/)?.[1] || 'https://i.imgur.com/Q5Z4y7T.png';
+                    const url = lines[i+1];
+                    html += `<div class="card" onclick="document.getElementById('video-player').src='${url}'">
+                                <img src="${logo}"> ${name}
+                             </div>`;
                 }
-                listDiv.innerHTML = html || "কোনো চ্যানেল পাওয়া যায়নি।";
-            } catch (err) {
-                document.getElementById('list').innerHTML = "লোডিং এরর হয়েছে!";
             }
-        }
-
-        document.getElementById('search').addEventListener('input', function(e) {
-            const term = e.target.value.toLowerCase();
-            document.querySelectorAll('.card').forEach(card => {
-                card.style.display = card.innerText.toLowerCase().includes(term) ? 'block' : 'none';
-            });
+            document.getElementById('list').innerHTML = html;
         });
-
-        loadChannels();
     </script>
 </body>
 </html>
