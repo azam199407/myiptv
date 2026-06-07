@@ -5,10 +5,12 @@ import asyncio
 import aiohttp
 
 # --- 🚀 একাধিক সোর্স কনফিগারেশন ---
+# --- 🚀 একাধিক সোর্স কনফিগারেশন ---
 SOURCE_URLS = [
-    "https://iptv-org.github.io/iptv/index.m3u",
-    "https://iptv-org.github.io/iptv/countries/bd.m3u",  # বাংলাদেশ ব্যাকআপ
-    "https://iptv-org.github.io/iptv/countries/in.m3u"   # ইন্ডিয়া ব্যাকআপ
+    "https://raw.githubusercontent.com/ Lane0118/IPTV/main/index.m3u", # অলওয়েজ আপডেট থাকা গ্লোবাল সোর্স
+    "https://iptv-org.github.io/iptv/countries/bd.m3u",  # বাংলাদেশ
+    "https://iptv-org.github.io/iptv/countries/in.m3u",  # ইন্ডিয়া
+    "https://iptv-org.github.io/iptv/categories/movies.m3u" # মুভিজ ক্যাটাগরি
 ]
 
 GITHUB_FILE = "index.html"
