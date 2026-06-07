@@ -1,9 +1,1 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 1 HD" tvg-logo="https://ডোমেইন/লোগো/sony_ten1.png" group-title="Sports",Sony Sports Ten 1 HD
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default.mpd
-#EXTINF:-1 tvg-name="Sony Sports Ten 2 HD" tvg-logo="https://ডোমেইন/লোগো/sony_ten2.png" group-title="Sports",Sony Sports Ten 2 HD
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2505/default.mpd
-#EXTINF:-1 tvg-name="PTV Sports Live" tvg-logo="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=200" group-title="Sports",PTV Sports Live
-http://103.199.161.254/BTV_WORLD/index.m3u8
-#EXTINF:-1 tvg-name="BBC News World" tvg-logo="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=200" group-title="News",BBC News World
-http://103.199.161.254/BTV/index.m3u8
