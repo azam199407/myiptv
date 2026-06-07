@@ -7,7 +7,7 @@
     <style>
         body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: #fff; margin: 0; padding: 20px; }
         .container { max-width: 900px; margin: auto; }
-        input { width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: none; background: #222; color: white; }
+        input { width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: none; background: #222; color: white; box-sizing: border-box; }
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
         .card { background: #1a1a1a; padding: 15px; border-radius: 10px; text-align: center; border: 1px solid #333; cursor: pointer; transition: 0.3s; }
         .card:hover { background: #ff4757; transform: scale(1.05); }
@@ -21,19 +21,33 @@
     </div>
 
     <script>
+        // এখানে আপনার ইউজারনেম বসান
         const M3U_URL = 'https://raw.githubusercontent.com/azam199407/myiptv/main/live.m3u';
-        fetch(M3U_URL).then(r => r.text()).then(data => {
-            const lines = data.split('\n');
-            let html = '';
-            for(let i=0; i<lines.length; i++){
-                if(lines[i].startsWith('#EXTINF')){
-                    const name = lines[i].split(',')[1];
-                    const url = lines[i+1];
-                    html += `<div class="card" onclick="window.open('${url}', '_blank')">${name}</div>`;
+
+        async function loadChannels() {
+            try {
+                const response = await fetch(M3U_URL);
+                const data = await response.text();
+                const listDiv = document.getElementById('list');
+                listDiv.innerHTML = '';
+                
+                const lines = data.split('\n');
+                let html = '';
+                
+                for(let i = 0; i < lines.length; i++) {
+                    if(lines[i].startsWith('#EXTINF')) {
+                        const name = lines[i].split(',')[1];
+                        const url = lines[i+1];
+                        if (name && url && url.startsWith('http')) {
+                            html += `<div class="card" onclick="window.open('${url.trim()}', '_blank')">${name.trim()}</div>`;
+                        }
+                    }
                 }
+                listDiv.innerHTML = html || "কোনো চ্যানেল পাওয়া যায়নি।";
+            } catch (err) {
+                document.getElementById('list').innerHTML = "লোডিং এরর হয়েছে!";
             }
-            document.getElementById('list').innerHTML = html;
-        });
+        }
 
         document.getElementById('search').addEventListener('input', function(e) {
             const term = e.target.value.toLowerCase();
@@ -41,6 +55,8 @@
                 card.style.display = card.innerText.toLowerCase().includes(term) ? 'block' : 'none';
             });
         });
+
+        loadChannels();
     </script>
 </body>
 </html>
