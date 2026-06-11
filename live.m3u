@@ -15,8 +15,6 @@ http://103.157.248.140:8000/play/a01m/index.m3u8
 http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mohammadfaisal22/banglatv/main/logos/tsports.png" group-title="Sports",ERT Sports 2 (1080p)
 http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0aIH6V5.png" group-title="Sports",HGPTV (720p) [Not 24/7]
-https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87ae-3861-f0620849d11c/source/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q5Z4y7T.png" group-title="Sports",HIPTV (1080p)
 https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16993
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Sports",KpopTV Play (576p)
@@ -115,16 +113,12 @@ http://158.69.24.53:8080/probashi_tv/index.m3u8
 https://bozztv.com/rongo/rongo-RTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/tL9kxxB.png" group-title="Bangladesh",SA TV (720p)
 https://tvsen6.aynaott.com/satv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/i54AQic.png" group-title="Bangladesh",Somoy News TV (1080p)
-https://bozztv.com/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Star_News_Bangladesh_Logo.svg/1280px-Star_News_Bangladesh_Logo.svg.png" group-title="Bangladesh",Star News (1080p)
 https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="India",4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/l3EcRnZ.png" group-title="India",6 TV Telugu (576p)
 https://cdn-1.pishow.tv/live/232/master.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_JALWA/images/LOGO_HD/image.png" group-title="India",9X Jalwa (1080p)
-https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9XM/images/LOGO_HD/image.png" group-title="India",9XM (1080p)
 https://9xjio.wiseplayout.com/9XM/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_10TV/images/LOGO_HD/image.png" group-title="India",10 TV (720p)
@@ -297,6 +291,8 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/in
 https://cdn-4.pishow.tv/live/8/master.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142807_ld_h9_ab.png?lock=720x540" group-title="India",DD Uttar Pradesh (720p)
 https://cdn-1.pishow.tv/live/36/master.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142809_ld_h15_aa.png?lock=720x540" group-title="India",DD Uttarakhand (720p)
+https://cdn-1.pishow.tv/live/17/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_YADAGIRI/images/LOGO_HD/image.png" group-title="India",DD Yadagiri (576p)
 https://cdn-1.pishow.tv/live/21/master.m3u8
 #EXTINF:-1 tvg-logo="https://desichannel.in/wp-content/uploads/2025/01/desi-channel.png" group-title="India",Desi Channel (720p)
