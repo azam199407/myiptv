@@ -41,52 +41,32 @@ https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4qZQKjo.png" group-title="Bangladesh",ATN News (1080p)
 https://bozztv.com/rongo/rongo-ATNNews/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nCWgp38.png" group-title="Bangladesh",Bangla Vision (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hvpyuek.png" group-title="Bangladesh",BTV Chattogram (1080p)
 https://bozztv.com/rongo/rongo-BTVChattagram/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5OE2FDt.png" group-title="Bangladesh",BTV National (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Xf5YuoE.png" group-title="Bangladesh",Channel 9 (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4JLkaF7.png" group-title="Bangladesh",Channel 24 (1080p)
 https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/X0JJlOX.png" group-title="Bangladesh",Channel I (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hJxFLvF.png" group-title="Bangladesh",Channel S (576p)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Qbt6q4z.png" group-title="Bangladesh",DBC News (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/F62GUqS.png" group-title="Bangladesh",Deepto TV (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ItrZok1.png" group-title="Bangladesh",Desh TV (1080p)
 https://bozztv.com/rongo/rongo-DeshTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PzqzgMm.png" group-title="Bangladesh",Deshi TV (720p)
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/zoLwwUK.png" group-title="Bangladesh",Ekattor TV (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705.m3u8
 #EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2022/12/green-tv.jpg" group-title="Bangladesh",Green TV (1080p)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/POXFhGN.png" group-title="Bangladesh",Independent TV (1080p)
 https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png" group-title="Bangladesh",Jamuna TV (1080p)
 https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/uVZJMed.png" group-title="Bangladesh",Maasranga TV (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vIJTVia.png" group-title="Bangladesh",Madani Channel Bangla (1080p)
 https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/E6doEWH.png" group-title="Bangladesh",Mohona TV (1080p)
 https://bozztv.com/rongo/rongo-MohonaTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/moviebangla.jpg?x50681" group-title="Bangladesh",Movie Bangla
 http://alvetv.com/moviebanglatv/8080/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/l75bDTx.png" group-title="Bangladesh",NTV (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/7oTsfQ4.png" group-title="Bangladesh",Probashi TV News (1080p)
 http://158.69.24.53:8080/probashi_tv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yu8ugqt.png" group-title="Bangladesh",RTV (1080p)
 https://bozztv.com/rongo/rongo-RTV/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Star_News_Bangladesh_Logo.svg/1280px-Star_News_Bangladesh_Logo.svg.png" group-title="Bangladesh",Star News (1080p)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="India",4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/l3EcRnZ.png" group-title="India",6 TV Telugu (576p)
@@ -189,6 +169,8 @@ https://mumt02.tangotv.in/BRIOTV/index.m3u8
 https://cdn-1.pishow.tv/live/1037/master.m3u8
 #EXTINF:-1 tvg-logo="https://akm-img-a-in.tosshub.com/businesstoday/resource/img/best-bank-new.png" group-title="India",BT TV (720p)
 https://feeds.intoday.in/bttv/itgd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4ss0KfA.png" group-title="India",CCV (480p)
+https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143010_ld_h15_aa.png?lock=720x540" group-title="India",Channel Divya (1080p)
 https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHANNEL_WIN/images/LOGO_HD/image.png" group-title="India",Channel WIN (720p)
@@ -241,6 +223,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e8c3741f8c154d3185831f4e31777fb2/in
 https://cdn-6.pishow.tv/live/9/master.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142790_ld_h15_aa.png?lock=720x540" group-title="India",DD Madhya Pradesh (720p)
 https://cdn-1.pishow.tv/live/31/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/BZjmjJJs/DD-Malayalam.png" group-title="India",DD Malayalam (576p)
+https://mumt02.tangotv.in/DDMALAYALAM/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_IMPHAL/images/LOGO_HD/image.png" group-title="India",DD Manipur (504p)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SHILLONG/images/LOGO_HD/image.png" group-title="India",DD Meghalaya (504p)
