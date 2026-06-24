@@ -35,6 +35,8 @@ https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
 https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png" group-title="Bangladesh",Aamar Bangla (720p)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681" group-title="Bangladesh",ATN Music (360p)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4qZQKjo.png" group-title="Bangladesh",ATN News (1080p)
 https://bozztv.com/rongo/rongo-ATNNews/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hvpyuek.png" group-title="Bangladesh",BTV Chattogram (1080p)
@@ -69,6 +71,8 @@ https://bozztv.com/rongo/rongo-somoy/index.m3u8
 https://tvsen4.aynaott.com/n64PH4YL/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA/images/LOGO_HD/LOGO_HD_image.png" group-title="Bangladesh",Zee Bangla HD (720p)
 http://217.20.112.199:8080/maamovies/index.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="India",4TV News (576p)
+https://cdn-4.pishow.tv/live/1007/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/l3EcRnZ.png" group-title="India",6 TV Telugu (576p)
 https://cdn-1.pishow.tv/live/232/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/zDiIhdN.png" group-title="India",7S Music (576p)
@@ -165,8 +169,6 @@ https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u
 https://cdn-2.pishow.tv/live/415/master.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/61/Bhakthi_TV_logo.jpg" group-title="India",Bhakthi TV (720p)
 https://cdn-1.pishow.tv/live/397/master.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BHARAT_SAMACHAR/images/LOGO_HD/image.png" group-title="India",Bharat Samachar (576p)
-https://trs1.aynaott.com/BharatSamachar/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="India",Big Magic (576p)
 https://mumt05.tangotv.in/87NeALx2BIGMAGIC/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rpHrRxR5/big_tv_malayalam.png" group-title="India",Big TV 24x7 (576i)
@@ -209,8 +211,6 @@ https://cdn-2.pishow.tv/live/425/master.m3u8
 https://cdn-6.pishow.tv/live/395/master.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CVR_OM_Spiritual.png" group-title="India",CVR OM Spiritual (576p)
 https://cdn-1.pishow.tv/live/957/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lPa11rU.png" group-title="India",D2h Kids (720p)
-https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_ARUNPRABHA/images/LOGO_HD/image.png" group-title="India",DD Arun Prabha (360p)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/308556d9fd1246adb479ef012a39bbfe/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/C7KQiZI.png" group-title="India",DD Bihar (720p)
@@ -275,8 +275,6 @@ https://live-cf-e24.dailyhunt.in/master.m3u8
 https://live.streamjo.com/eetlive/eettv.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ENTERR10_BANGLA/images/LOGO_HD/image.png" group-title="India",Enterr 10 Bangla (720p) [Not 24/7]
 https://live-bangla.akamaized.net/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png" group-title="India",Epic TV (1080p)
-http://de.russkoe-iptv.com:88/s/s-e3dc39e0/epic-hd.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png" group-title="India",Epic TV Digital (1080p)
 https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ET_NOW/images/LOGO_HD/image.png" group-title="India",ET Now (720p)
