@@ -13,8 +13,6 @@ https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16993
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/d5w2pT4.png" group-title="Sports",LPTV (1080p)
 https://livestream.telvue.com/lexmedia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia1/stream1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vPvR7dX.png" group-title="Sports",PTV (720p)
-https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MMccHNd.png" group-title="Sports",PTV 4 (480p) [Not 24/7]
 https://streams.comclark.com/pknsd/ptv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kh3LGAP.png" group-title="Sports",Rede SPTV (360p)
@@ -155,8 +153,6 @@ https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-a
 https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540" group-title="India",Assam Talks (576p)
 https://trs1.aynaott.com/AssamTalks/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/eKQs51V.png" group-title="India",Awaaz India TV (720p) [Not 24/7]
-https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142692_ld_h15_aa.png?lock=720x540" group-title="India",Ayush TV (360p) [Not 24/7]
 https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NwOQUDp.png" group-title="India",B4U Bhojpuri (1080p)
@@ -269,8 +265,6 @@ https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
 https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002C5PXK.png?lock=720x540" group-title="India",Dish Buzz (720p)
 http://217.20.112.199:8080/animalplanet/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Divya_Vani.png" group-title="India",Divyavani TV (576p)
-https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_E24/images/LOGO_HD/image.png" group-title="India",E 24 (576p)
 https://live-cf-e24.dailyhunt.in/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rMldFW8.png" group-title="India",EET TV (1080p) [Not 24/7]
