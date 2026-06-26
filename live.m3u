@@ -55,6 +55,8 @@ https://bozztv.com/rongo/rongo-MohonaTV/index.m3u8
 http://alvetv.com/moviebanglatv/8080/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1ztVXUi.png" group-title="Bangladesh",Peace TV Bangla (1080p)
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7oTsfQ4.png" group-title="Bangladesh",Probashi TV News (1080p)
+http://158.69.24.53:8080/probashi_tv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yu8ugqt.png" group-title="Bangladesh",RTV (1080p)
 https://bozztv.com/rongo/rongo-RTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="Bangladesh",Star Jalsha HD (720p)
@@ -263,6 +265,8 @@ http://217.20.112.199:8080/animalplanet/index.m3u8
 https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_E24/images/LOGO_HD/image.png" group-title="India",E 24 (576p)
 https://live-cf-e24.dailyhunt.in/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rMldFW8.png" group-title="India",EET TV (1080p) [Not 24/7]
+https://live.streamjo.com/eetlive/eettv.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ENTERR10_BANGLA/images/LOGO_HD/image.png" group-title="India",Enterr 10 Bangla (720p) [Not 24/7]
 https://live-bangla.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png" group-title="India",Epic TV Digital (1080p)
@@ -307,8 +311,6 @@ https://trs1.aynaott.com/Goldmines/index.m3u8
 https://cdn-2.pishow.tv/live/1460/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="India",Good News Today (720p)
 https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143091_ld_h15_aa.png?lock=720x540" group-title="India",Goodness TV (576p)
-https://mumt02.tangotv.in/GOODNESSTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOODNEWS_TV/images/LOGO_HD/image.png" group-title="India",GoodNews TV (720p)
 https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xhbZvzt/cropped-final-logo-300x127.png" group-title="India",Gospel TV India (720p)
