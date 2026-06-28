@@ -11,8 +11,6 @@ https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87a
 https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16993
 #EXTINF:-1 tvg-logo="https://i.imgur.com/d5w2pT4.png" group-title="Sports",LPTV (1080p)
 https://livestream.telvue.com/lexmedia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia1/stream1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vPvR7dX.png" group-title="Sports",PTV (720p)
-https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MMccHNd.png" group-title="Sports",PTV 4 (480p) [Not 24/7]
 https://streams.comclark.com/pknsd/ptv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kh3LGAP.png" group-title="Sports",Rede SPTV (360p)
@@ -23,12 +21,6 @@ https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/stpete/G0187_003/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/960px-NBC_logo_2022_%28vertical%29.svg.png" group-title="Sports",WPTV News West Palm Beach FL (720p)
 https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Ty7GkoN.png" group-title="Sports",XPTV1 (720p)
-https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/74Z8ATB.png" group-title="Sports",XPTV2 (720p)
-https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="Sports",XPTV US (720p)
-https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png" group-title="Bangladesh",Aamar Bangla (720p)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4qZQKjo.png" group-title="Bangladesh",ATN News (1080p)
@@ -55,8 +47,6 @@ http://alvetv.com/moviebanglatv/8080/index.m3u8
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/7oTsfQ4.png" group-title="Bangladesh",Probashi TV News (1080p)
 http://158.69.24.53:8080/probashi_tv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/i54AQic.png" group-title="Bangladesh",Somoy News TV (1080p)
-https://bozztv.com/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="Bangladesh",Star Jalsha HD (720p)
 https://tvsen4.aynaott.com/n64PH4YL/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Bangladesh",Zee Bangla Sonar (576p)
@@ -223,8 +213,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e8c3741f8c154d3185831f4e31777fb2/in
 https://cdn-6.pishow.tv/live/9/master.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142790_ld_h15_aa.png?lock=720x540" group-title="India",DD Madhya Pradesh (720p)
 https://cdn-1.pishow.tv/live/31/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BZjmjJJs/DD-Malayalam.png" group-title="India",DD Malayalam (576p)
-https://mumt02.tangotv.in/DDMALAYALAM/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_IMPHAL/images/LOGO_HD/image.png" group-title="India",DD Manipur (504p)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SHILLONG/images/LOGO_HD/image.png" group-title="India",DD Meghalaya (504p)
@@ -307,8 +295,6 @@ https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
 https://cdn-2.pishow.tv/live/1460/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="India",Good News Today (720p)
 https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143091_ld_h15_aa.png?lock=720x540" group-title="India",Goodness TV (576p)
-https://mumt02.tangotv.in/GOODNESSTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOODNEWS_TV/images/LOGO_HD/image.png" group-title="India",GoodNews TV (720p)
 https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xhbZvzt/cropped-final-logo-300x127.png" group-title="India",Gospel TV India (720p)
