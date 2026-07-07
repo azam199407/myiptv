@@ -9,6 +9,8 @@ http://103.253.18.58:8000/play/a00t
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87ae-3861-f0620849d11c/source/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q5Z4y7T.png" group-title="Sports",HIPTV (1080p)
 https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16993
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Sports",KpopTV Play (576p)
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/d5w2pT4.png" group-title="Sports",LPTV (1080p)
 https://livestream.telvue.com/lexmedia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia1/stream1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vPvR7dX.png" group-title="Sports",PTV (720p)
@@ -33,6 +35,8 @@ https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="Sports",XPTV US (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png" group-title="Bangladesh",Aamar Bangla (720p)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681" group-title="Bangladesh",ATN Music (360p)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4qZQKjo.png" group-title="Bangladesh",ATN News (1080p)
@@ -71,8 +75,8 @@ https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 http://158.69.24.53:8080/probashi_tv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yu8ugqt.png" group-title="Bangladesh",RTV (1080p)
 https://bozztv.com/rongo/rongo-RTV/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/i54AQic.png" group-title="Bangladesh",Somoy News TV (1080p)
-https://bozztv.com/rongo/rongo-somoy/index.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Rupashi_Bangla.png" group-title="Bangladesh",Rupashi Bangla TV (720p)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Bangladesh",Zee Bangla Sonar (576p)
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="India",4TV News (576p)
@@ -93,6 +97,8 @@ https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8
 https://cdn-1.pishow.tv/live/1211/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" group-title="India",Aaj Tak HD (1080p)
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142510_ld_h15_ab.png?lock=720x540" group-title="India",Aakaash Aath (576p)
+https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/aryatvtamil.png" group-title="India",Aaryaa TV (1080p)
 https://stream.ottlive.co.in/aryatvtamil/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GlfrYs7.png" group-title="India",Aaseervatham TV (576p)
@@ -233,8 +239,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e8c3741f8c154d3185831f4e31777fb2/in
 https://cdn-6.pishow.tv/live/9/master.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142790_ld_h15_aa.png?lock=720x540" group-title="India",DD Madhya Pradesh (720p)
 https://cdn-1.pishow.tv/live/31/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BZjmjJJs/DD-Malayalam.png" group-title="India",DD Malayalam (576p)
-https://mumt02.tangotv.in/DDMALAYALAM/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_IMPHAL/images/LOGO_HD/image.png" group-title="India",DD Manipur (504p)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SHILLONG/images/LOGO_HD/image.png" group-title="India",DD Meghalaya (504p)
