@@ -13,6 +13,8 @@ https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 https://livestream.telvue.com/lexmedia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia1/stream1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vPvR7dX.png" group-title="Sports",PTV (720p)
 https://giatv.bozztv.com/giatv/giatv-PTVonLINE/PTVonLINE/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MMccHNd.png" group-title="Sports",PTV 4 (480p) [Not 24/7]
+https://streams.comclark.com/pknsd/ptv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kh3LGAP.png" group-title="Sports",Rede SPTV (360p)
 https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/I60nQuR.png" group-title="Sports",RFPtv (360p)
@@ -21,8 +23,6 @@ https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 https://streams.comclark.com/pknsd/rptv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fl8I3cg.png" group-title="Sports",St. Pete TV (SPTV) (St Petersburg FL) (360p)
 https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/stpete/G0187_003/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mohammadfaisal22/banglatv/main/logos/tsports.png" group-title="Sports",T Sports 7
-https://live-us1.thaimomo.com/live-as/chtsport-1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9cmIv3q.png" group-title="Sports",USMPTV (720p)
 http://187.102.210.46/USMP/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/960px-NBC_logo_2022_%28vertical%29.svg.png" group-title="Sports",WPTV News West Palm Beach FL (720p)
@@ -53,6 +53,8 @@ https://bozztv.com/rongo/rongo-DeshTV/index.m3u8
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2022/12/green-tv.jpg" group-title="Bangladesh",Green TV (1080p)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/POXFhGN.png" group-title="Bangladesh",Independent TV (1080p)
+https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png" group-title="Bangladesh",Jamuna TV (1080p)
 https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vIJTVia.png" group-title="Bangladesh",Madani Channel Bangla (1080p)
@@ -69,8 +71,6 @@ https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 http://158.69.24.53:8080/probashi_tv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yu8ugqt.png" group-title="Bangladesh",RTV (1080p)
 https://bozztv.com/rongo/rongo-RTV/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Rupashi_Bangla.png" group-title="Bangladesh",Rupashi Bangla TV (720p)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/i54AQic.png" group-title="Bangladesh",Somoy News TV (1080p)
 https://bozztv.com/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Bangladesh",Zee Bangla Sonar (576p)
@@ -177,6 +177,8 @@ https://mumt05.tangotv.in/87NeALx2BIGMAGIC/index.m3u8
 https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Brio_TV.png" group-title="India",Brio TV (576p)
 https://mumt02.tangotv.in/BRIOTV/index.m3u8
+#EXTINF:-1 tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/brk-news.png" group-title="India",BRK News (576p)
+https://cdn-1.pishow.tv/live/1037/master.m3u8
 #EXTINF:-1 tvg-logo="https://akm-img-a-in.tosshub.com/businesstoday/resource/img/best-bank-new.png" group-title="India",BT TV (720p)
 https://feeds.intoday.in/bttv/itgd.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4ss0KfA.png" group-title="India",CCV (480p)
