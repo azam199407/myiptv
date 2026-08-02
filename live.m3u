@@ -47,8 +47,6 @@ https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="Sports",XPTV US (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png" group-title="Bangladesh",Aamar Bangla (720p)
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/K1HmMRz.png" group-title="Bangladesh",ATN Bangla (720p)
 https://tvsen5.aynaott.com/atnbangla/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681" group-title="Bangladesh",ATN Music (360p)
@@ -91,8 +89,6 @@ http://158.69.24.53:8080/probashi_tv/index.m3u8
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yu8ugqt.png" group-title="Bangladesh",RTV (1080p)
 https://bozztv.com/rongo/rongo-RTV/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Rupashi_Bangla.png" group-title="Bangladesh",Rupashi Bangla TV (720p)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/i54AQic.png" group-title="Bangladesh",Somoy News TV (1080p)
 https://bozztv.com/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Bangladesh",Zee Bangla Sonar (576p)
@@ -167,6 +163,8 @@ https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
 https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rmCBD3e.png" group-title="India",Andy Haryana (576p)
 https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="India",Angel TV (720p)
+https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png" group-title="India",Animax Asia India (1080p) [Geo-blocked]
 https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sh0yFSf.png" group-title="India",Anjan TV (720p)
