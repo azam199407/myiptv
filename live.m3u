@@ -31,6 +31,8 @@ https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0aIH6V5.png" group-title="Sports",HGPTV (720p) [Not 24/7]
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87ae-3861-f0620849d11c/source/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Sports",KpopTV Play (576p)
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Sports",NBC WPTV-TV (720p)
 https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vPvR7dX.png" group-title="Sports",PTV (Bolivia) (720p)
@@ -111,6 +113,8 @@ https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 http://tvsen5.aynascope.net/RtvHD/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" group-title="Bangladesh",Sonic (576p)
 http://103.185.24.134:3001/SONIC/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="Bangladesh",Star Jalsha (576p) [Geo-blocked]
+http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="Bangladesh",Star Jalsha HD (720p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA/images/LOGO_HD/LOGO_HD_image.png" group-title="Bangladesh",Zee Bangla HD (720p)
@@ -217,8 +221,8 @@ https://mumt01.tangotv.in/O5aw8Zn3APN/index.m3u8
 https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARGUS/images/LOGO_HD/image.png" group-title="India",Argus News (576p)
 https://mumt05.tangotv.in/87NeALx2ARGUSNEWS/index.m3u8
-#EXTINF:-1 tvg-logo="https://arputharyesutv.net/wp-content/uploads/2022/07/AR-LOGO-PNG.png" group-title="India",Arputhar Yesu TV (576p)
-https://account33.livebox.co.in/jesushelpshls/live.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png" group-title="India",Aryan TV National (576p)
+https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Asian_News.png" group-title="India",Asian News (1080p)
 https://stream.ottlive.co.in/asiannews/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Wv7MOzg.png" group-title="India",Asianet HD (720p)
@@ -229,8 +233,6 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.
 https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540" group-title="India",Asianet Suvarna News (1080p) [Not 24/7]
 https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://papaji.freetvindia.com/media/channels/asom_live_24x7.png" group-title="India",Asom Live 24 (576p)
-https://mumt06.tangotv.in/qYyB8fXVASHOMLIVE/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540" group-title="India",Assam Talks (576p)
 http://tvsen7.aynascope.net/AssamTalks/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/eKQs51V.png" group-title="India",Awaaz India TV (720p) [Not 24/7]
@@ -279,8 +281,6 @@ https://mumbai-edge.smartplaytv.in/BRKNEWS/index.m3u8
 https://feeds.intoday.in/bttv/itgd.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/BVG.png" group-title="India",BVG (576p)
 https://mumt05.tangotv.in/87NeALx2BVG/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4ss0KfA.png" group-title="India",CCV (480p)
-https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143010_ld_h15_aa.png?lock=720x540" group-title="India",Channel Divya (1080p)
 https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHANNEL_WIN/images/LOGO_HD/image.png" group-title="India",Channel WIN (720p)
