@@ -19,8 +19,6 @@ http://103.151.60.162:2122/play/a026/index.m3u8?hls
 http://103.151.60.162:2122/play/a027/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0aIH6V5.png" group-title="Sports",HGPTV (720p) [Not 24/7]
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87ae-3861-f0620849d11c/source/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Sports",KpopTV Play (576p)
-https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Sports",NBC WPTV-TV (720p)
 https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vPvR7dX.png" group-title="Sports",PTV (Bolivia) (720p)
@@ -43,12 +41,8 @@ https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="Sports",XPTV US (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png" group-title="Bangladesh",Aamar Bangla (720p)
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/K1HmMRz.png" group-title="Bangladesh",ATN Bangla (720p)
 http://tvsen5.aynascope.net/atnbangla/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681" group-title="Bangladesh",ATN Music (360p)
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nCWgp38.png" group-title="Bangladesh",Bangla Vision (720p)
 https://tvsen5.aynaott.com/banglavision/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gxL05Y4.png" group-title="Bangladesh",Boishakhi TV
@@ -105,10 +99,14 @@ http://tvsen5.aynascope.net/RtvHD/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" group-title="Bangladesh",Sonic (576p)
 http://103.185.24.134:3001/SONIC/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="Bangladesh",Star Jalsha (576p)
+http://103.151.60.162:2122/play/a00w/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="Bangladesh",Star Jalsha HD (720p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Bangladesh",Zee Bangla (576p)
 http://103.151.60.162:2122/play/a011/index.m3u8?hls
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA/images/LOGO_HD/LOGO_HD_image.png" group-title="Bangladesh",Zee Bangla HD (1080p)
+http://103.151.60.162:2122/play/a02p/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Bangladesh",Zee Bangla Sonar (576p)
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png" group-title="India",4 SiDES TV (1080p)
@@ -195,6 +193,8 @@ https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
 https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rmCBD3e.png" group-title="India",Andy Haryana (576p)
 https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="India",Angel TV (720p)
+https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANIMAL_PLANET/images/LOGO_HD/image.png" group-title="India",Animal Planet (India) HD (720p)
 https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png" group-title="India",Animax Asia India (1080p) [Geo-blocked]
@@ -419,6 +419,8 @@ https://cdn.pishow.tv/ott/live/36/master.m3u8
 https://cdn.pishow.tv/ott/live/17/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_YADAGIRI/images/LOGO_HD/image.png" group-title="India",DD Yadagiri (576p)
 https://cdn.pishow.tv/ott/live/21/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xIYITQ9.png" group-title="India",Deewana HD (540p)
+https://live20.bozztv.com/giatvplayout7/giatv-209592/index.m3u8
 #EXTINF:-1 tvg-logo="https://desichannel.in/wp-content/uploads/2025/01/desi-channel.png" group-title="India",Desi Channel (720p)
 https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Dhamaal_TV.png" group-title="India",Dhamaal (576p)
