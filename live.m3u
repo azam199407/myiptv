@@ -17,6 +17,8 @@ https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
 http://103.151.60.162:2122/play/a026/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="Sports",Star Sports Select 2 HD (1080p)
 http://103.151.60.162:2122/play/a027/index.m3u8?hls
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0aIH6V5.png" group-title="Sports",HGPTV (720p) [Not 24/7]
+https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/8424fb7f-99a9-87ae-3861-f0620849d11c/source/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Sports",KpopTV Play (576p)
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="Sports",NBC WPTV-TV (720p)
@@ -89,8 +91,6 @@ http://103.185.24.134:3001/NICK-JR/index.m3u8
 http://103.185.24.134:3001/NICK/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/l75bDTx.png" group-title="Bangladesh",NTV (Bangladesh) (720p)
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1ztVXUi.png" group-title="Bangladesh",Peace TV Bangla (1080p)
-https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/7oTsfQ4.png" group-title="Bangladesh",Probashi TV News (1080p)
 http://158.69.24.53:8080/probashi_tv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MBm2gPz.jpeg" group-title="Bangladesh",Rajdhani TV SD (1080p)
@@ -195,6 +195,8 @@ https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8
 https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/sh0yFSf.png" group-title="India",Anjan TV (720p)
 https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/APN.png" group-title="India",APN (576p)
+https://mumt01.tangotv.in/O5aw8Zn3APN/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IM4D8Wz.png" group-title="India",Apna Punjab TV (720p)
 https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARGUS/images/LOGO_HD/image.png" group-title="India",Argus News (576p)
@@ -257,8 +259,6 @@ https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playli
 https://mumbai-edge.smartplaytv.in/BRKNEWS/index.m3u8
 #EXTINF:-1 tvg-logo="https://akm-img-a-in.tosshub.com/businesstoday/resource/img/best-bank-new.png" group-title="India",BT TV (720p)
 https://feeds.intoday.in/bttv/itgd.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/BVG.png" group-title="India",BVG (576p)
-https://mumt05.tangotv.in/87NeALx2BVG/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Calvary.png" group-title="India",Calvary TV (576p)
 https://cdn.pishow.tv/ott/live/963/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK/images/LOGO_HD/image.png" group-title="India",Cartoon Network (India) (720p)
